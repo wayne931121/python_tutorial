@@ -50,10 +50,11 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### [Eyed3](https://eyed3.readthedocs.io/en/latest/eyed3.html)
 
 ### 照片、影片編輯，串流讀取
-#### [OpenCV](https://www.google.com/search?q=opencv+python)<hr>
+#### [OpenCV](https://www.google.com/search?q=opencv+python)
 
 ### CSV編輯
 #### [CSV](https://docs.python.org/3/library/csv.html)
+<hr>
 
 ### 人工智慧、大數據分析
 #### [Tensorflow](https://www.tensorflow.org/)
