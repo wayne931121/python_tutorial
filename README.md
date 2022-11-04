@@ -52,6 +52,9 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 ### 照片、影片編輯，串流讀取
 #### [OpenCV](https://www.google.com/search?q=opencv+python)<hr>
 
+### CSV編輯
+#### [CSV](https://docs.python.org/3/library/csv.html)
+
 ### 人工智慧、大數據分析
 #### [Tensorflow](https://www.tensorflow.org/)
 #### [Pytorch](https://pytorch.org/)
@@ -70,4 +73,4 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 
 ###  資料分析
 #### [Pandas](https://pandas.pydata.org/)
-#### [Pandas支援格式](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html)
+#### [Pandas支援格式: csv, excel, xml...](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html)
