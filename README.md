@@ -54,6 +54,9 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 
 ### CSV編輯
 #### [CSV](https://docs.python.org/3/library/csv.html)
+
+### JSON編輯
+#### [JSON](https://docs.python.org/3/library/json.html)
 <hr>
 
 ### 人工智慧、大數據分析
