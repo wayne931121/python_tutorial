@@ -5,4 +5,4 @@ Python是個高階語言，使用直譯器。Python的優勢是簡單明瞭能�
 
 ## 如何學習Python
 到w3school學習入門文法<br>
-(https://www.w3schools.com/python/)[https://www.w3schools.com/python/]
+[https://www.w3schools.com/python/](https://www.w3schools.com/python/)
