@@ -132,7 +132,7 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 ### bool -> boolean 布林值(True or False)
 
 ## Python運算子
-
+```
 ### 假設x=2, y=7
 ### Python算術運算子
 #### \+ => 加 x+y=2+7=9
