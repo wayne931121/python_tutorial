@@ -129,6 +129,25 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 ### float -> float 浮點數(小數)
 ### bytes -> bytes 原始數據(只讀r)
 ### bytearray -> bytearray 原始數據陣列(讀寫rw)
+### bool -> boolean 布林值(True or False)
+
+## Python算術運算子
+### +
+### -
+### *
+### /
+### //
+### %
+
+## Python指定運算子
+### +=
+### -=
+
+## Python邏輯運算子
+### and
+### or
+### &
+### |
 
 ## Python內建函數
 ### chr
@@ -140,6 +159,7 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 ### float -> float 浮點數(小數)
 ### bytes -> bytes 原始數據(只讀r)
 ### bytearray -> bytearray 原始數據陣列(讀寫rw)
+### bool -> boolean 布林值(True or False)
 ### bin
 ### oct
 ### hex
