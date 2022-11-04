@@ -33,7 +33,7 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 嗅探工具、封包收發測試、網路攻擊工具、偽裝IP工具、網域測試。
 
 ### 抓包處理
-#### 將抓到的封包、原始碼進行處理，通常搭配request模組使用。<br>
+將抓到的封包、原始碼進行處理，通常搭配request模組使用。<br>
 #### [lxml](https://lxml.de/)<br>
 #### [beatifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/)
 
