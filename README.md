@@ -29,7 +29,7 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 網頁伺服器，開伺服器等待用戶連接並做出相應行動。
 
 #### [Scapy](https://scapy.net/)
-客戶端<br>
+實用工具<br>
 嗅探工具、封包收發測試、網路攻擊工具、偽裝IP工具、網域測試。
 
 ### 抓包處理
