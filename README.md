@@ -15,12 +15,12 @@ Python有很多別人寫好的模組和強大的內建模組，可以做很多�
 ### 網路:
 讀取網頁、開網頁伺服器、發送封包、接收封包
 
-#### [Socket](https://docs.python.org/3/library/socket.html)
+#### [Socket內建](https://docs.python.org/3/library/socket.html)
 客戶端、伺服器端、底層應用。<br>
 客戶端，爬蟲、嗅探使用，向伺服器寄出請求，並取得回應，像是網頁原始碼。<br>
 伺服器端，開伺服器等待用戶連接並做出相應行動。
 
-#### [SSL](https://docs.python.org/3/library/ssl.html)
+#### [SSL內建](https://docs.python.org/3/library/ssl.html)
 客戶端、伺服器端、底層應用。<br>
 wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 
@@ -55,10 +55,10 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### [OpenCV](https://www.google.com/search?q=opencv+python)
 
 ### CSV編輯
-#### [CSV](https://docs.python.org/3/library/csv.html)
+#### [CSV內建](https://docs.python.org/3/library/csv.html)
 
 ### JSON編輯
-#### [JSON](https://docs.python.org/3/library/json.html)
+#### [JSON內建](https://docs.python.org/3/library/json.html)
 <hr>
 
 ### 人工智慧、大數據分析
@@ -82,8 +82,28 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### [Pandas支援格式: csv, excel, xml...](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html)<hr>
 
 ### 時間
-#### [Time](https://docs.python.org/3/library/time.html)
-#### [Datetime](https://docs.python.org/3/library/datetime.html)
+#### [Time內建](https://docs.python.org/3/library/time.html)
+#### [Datetime內建](https://docs.python.org/3/library/datetime.html)
+
+### 系統(系統資訊、程式資訊、檔案操作、標準輸入輸出...)、進程、線程
+#### [os內建](https://docs.python.org/3/library/os.html)
+#### [sys內建](https://docs.python.org/3/library/sys.html)
+#### [signal內建](https://docs.python.org/3/library/signal.html)
+#### [subprocess內建](https://docs.python.org/3/library/subprocess.html)
+#### [shlex內建](https://docs.python.org/3/library/shlex.html)
+#### [threading內建](https://docs.python.org/3/library/threading.html)
+#### [multiprocessing內建](https://docs.python.org/3/library/multiprocessing.html)
+#### [io內建](https://docs.python.org/3/library/io.html)
+
+### 壓縮編碼解碼
+#### [zipfile內建(zip)](https://docs.python.org/3/library/zipfile.html)
+#### [tarfile內建(tar)](https://docs.python.org/3/library/tarfile.html)
+#### [zlib內建(gzip、deflate)](https://docs.python.org/3/library/zlib.html)
+#### [gzip內建](https://docs.python.org/3/library/gzip.html)
+#### [brotli](https://python-hyper.org/projects/brotlipy/en/latest/)
+#### [內建]()
+#### [bz2內建](https://docs.python.org/3/library/bz2.html)
+#### [內建]()
 
 ## Python文法結構
 
@@ -100,7 +120,21 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 ## Python資料型態
 ### str -> string 字符串
 ### int -> integer 整數
-### list 
-### float
-### bytes
-### bytearray
+### list -> list 清單(類似陣列，但內容物型態不限)
+### float -> float 浮點數(小數)
+### bytes -> bytes 原始數據(只讀r)
+### bytearray -> bytearray 原始數據陣列(讀寫rw)
+
+## Python內建函數
+### chr
+### ord
+### str -> string 字符串
+### int -> integer 整數
+### list -> list 清單(類似陣列，但內容物型態不限)
+### float -> float 浮點數(小數)
+### bytes -> bytes 原始數據(只讀r)
+### bytearray -> bytearray 原始數據陣列(讀寫rw)
+### bin
+### oct
+### hex
+### open
