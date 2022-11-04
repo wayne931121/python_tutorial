@@ -77,6 +77,30 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 ### 資料圖形化
 #### [Matplotlib](https://matplotlib.org/)
 
-###  資料分析
+### 資料分析
 #### [Pandas](https://pandas.pydata.org/)
-#### [Pandas支援格式: csv, excel, xml...](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html)
+#### [Pandas支援格式: csv, excel, xml...](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html)<hr>
+
+### 時間
+#### [Time](https://docs.python.org/3/library/time.html)
+#### [Datetime](https://docs.python.org/3/library/datetime.html)
+
+## Python文法結構
+
+### 函數
+#### def function_name(args*, kargs**): return value
+
+### 迴圈
+#### for i in iterObject: doSomething
+#### while flag: doSomething
+
+### 物件
+#### class object_name(parent):
+
+## Python資料型態
+### str -> string 字符串
+### int -> integer 整數
+### list 
+### float
+### bytes
+### bytearray
