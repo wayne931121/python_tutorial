@@ -40,7 +40,7 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### [Beatifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/)<hr>
 
 ### 控制瀏覽器
-爬蟲的一種
+#### 爬蟲的一種
 #### [Selenium](https://selenium-python.readthedocs.io/)<hr>
 
 ### 編輯任何檔案
@@ -61,13 +61,14 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 ##### [H5PY](https://docs.h5py.org/)
 <hr>
 
-### 資料分析
-#### 陣列、數學與矩陣運算
+### 陣列、數學與矩陣運算
 #### [Numpy](https://numpy.org/)
 #### [Scipy](https://scipy.org/)
 
-#### 資料圖形化
+### 資料圖形化
 #### [Matplotlib](https://matplotlib.org/)
 <hr>
 
-### 
+###  資料分析
+#### [Pandas](https://pandas.pydata.org/)
+[Pandas格式資源](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html)
