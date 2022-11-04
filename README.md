@@ -61,5 +61,9 @@ Python內建函數open<hr>
 ##### [H5PY](https://docs.h5py.org/)
 <hr>
 
-### 陣列與矩陣運算
+### 陣列、數學與矩陣運算
 #### [Numpy](https://numpy.org/)
+#### [Scipy](https://scipy.org/)
+
+### 圖形化
+#### [Matplotlib](https://matplotlib.org/)
