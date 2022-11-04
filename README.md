@@ -40,3 +40,12 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 ### 控制瀏覽器
 爬蟲的一種
 #### [Selenium](https://selenium-python.readthedocs.io/)
+
+### 編輯任何檔案
+#### Python內建函數open
+
+### 音樂標頭編輯(MP3 ID3 Metadata)
+#### [Eyed3](https://eyed3.readthedocs.io/en/latest/eyed3.html)
+
+### 照片、影片編輯，串流讀取
+#### [OpenCV](https://www.google.com/search?q=opencv+python)
