@@ -131,23 +131,24 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 ### bytearray -> bytearray 原始數據陣列(讀寫rw)
 ### bool -> boolean 布林值(True or False)
 
-## Python算術運算子
-### +
-### -
-### *
-### /
-### //
-### %
+## Python運算子
+### Python算術運算子
+#### +
+#### -
+#### *
+#### /
+#### //
+#### %
 
-## Python指定運算子
-### +=
-### -=
+### Python指定運算子
+#### +=
+#### -=
 
-## Python邏輯運算子
-### and
-### or
-### &
-### |
+### Python邏輯運算子
+#### and
+#### or
+#### &
+#### |
 
 ## Python內建函數
 ### chr
