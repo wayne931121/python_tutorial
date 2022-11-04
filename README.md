@@ -11,10 +11,10 @@ Python是個高階語言，使用直譯器。Python的優勢是簡單明瞭能�
 Python有很多別人寫好的模組和強大的內建模組，可以做很多事，有些包跑很快是因為他是用C寫的，在Python內運作。
 
 ### 網路:
-[https://docs.python.org/3/library/socket.html](Socket)
+[Socket](https://docs.python.org/3/library/socket.html)
 
-[https://docs.python.org/3/library/ssl.html](SSL)
+[SSL](https://docs.python.org/3/library/ssl.html)
 
-Request:
+Request:<br>
     lxml<br>
     beatifulsoup<br>
