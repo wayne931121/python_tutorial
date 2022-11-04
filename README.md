@@ -15,6 +15,10 @@ Python有很多別人寫好的模組和強大的內建模組，可以做很多�
 
 [SSL](https://docs.python.org/3/library/ssl.html)
 
-Request:<br>
+#### [Request](https://requests.readthedocs.io/en/latest/)
+
+[Flask](https://flask.palletsprojects.com/en/2.2.x/)
+
+### 抓包處理
     lxml<br>
     beatifulsoup<br>
