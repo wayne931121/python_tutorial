@@ -132,9 +132,10 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 ### bool -> boolean 布林值(True or False)
 
 ## Python運算子
+## [https://www.w3schools.com/python/python_operators.asp](https://www.w3schools.com/python/python_operators.asp)
 
 ### 假設x=2, y=7
-### Python算術運算子
+### Python算術運算子(Arithmetic Operators)
 #### \+ ⇨ 加 x+y=2+7=9
 #### \- ⇨ 減 x-y=2-7=-5
 #### \* ⇨ 乘 x\*y=2\*7=14
@@ -143,7 +144,8 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### \% ⇨ 除完取餘數 x%y=2%7=2
 #### \*\* ⇨ 次方 x\*\*y=2\*\*7=2\*2\*2\*2\*2\*2\*2=128
 
-### Python指定運算子
+### Python指定運算子(Assignment Operators)
+#### = 
 #### +=     ⇨ x+=10    ⇨ x=x+10, x=12
 #### -=     ⇨ x-=10    ⇨ x=x-10, x=-8
 #### \*=    ⇨ x\*=10   ⇨ x=x\*10, x=20
@@ -157,7 +159,7 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### >>=    ⇨ x>>=10   ⇨ x=x>>10, x=0
 #### <<=    ⇨ x<<=10   ⇨ x=x<<10, x=2048
 
-### Python比較運算子(關係運算子)
+### Python比較運算子(關係運算子)(Comparison Operators)
 #### ==  ⇨ x==2: True,  x是2(x等於2)
 #### !=  ⇨ x!=2: False, x不是2(x不等於2)
 #### >=  ⇨ x>=2: True,  x大於等於2
@@ -165,26 +167,24 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### >   ⇨ x>2: False,  x大於2
 #### <   ⇨ x<2: False,  x小於2
 
-### Python邏輯運算子
-#### and
-#### or
-#### not
+### Python邏輯運算子(Logical Operators)
+#### and 兩邊條件都成立則返回True，否則False。 m = (1 and 0), m: False
+#### or  兩邊條件至少一邊成立則返回True，否則False。  m = (1 or 0), m: True
+#### not 不是、相反，True變False，False變True。  m = not (1 and 0), m: True
 
-### Python恆等運算子
-#### is
-#### is not
+### Python恆等運算子(Identity Operators)
+#### is  完全相等
 
 ### Python成員運算子(Membership Operators)
-#### in
-#### not in
+#### in 在什麼之中 m = ("1" in "hh1dd"), m: True
 
-### Python位元運算子
-#### &
-#### |
-#### ^
-#### ~
-#### <<
-#### >>
+### Python位元運算子(Bitwise Operators)(int only)
+#### & ⇨ and
+#### | ⇨ or
+#### ^ ⇨ xor
+#### ~ ⇨ mot 將數字轉為2進制並反轉再轉回數字(2的補數)
+#### << ⇨ 將數字轉為2進制並在右邊補數個0再轉回數字
+#### >> ⇨
 
 ## Python內建函數
 ### chr
