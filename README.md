@@ -51,3 +51,15 @@ Python內建函數open<hr>
 
 ### 照片、影片編輯，串流讀取
 #### [OpenCV](https://www.google.com/search?q=opencv+python)<hr>
+
+### 人工智慧、大數據分析
+#### [Tensorflow](https://www.tensorflow.org/)
+#### [Pytorch](https://pytorch.org/)
+#### [Scikit-Learn](https://scikit-learn.org/)
+#### [Keras](https://keras.io/)
+#### H5檔案讀取
+##### [H5PY](https://docs.h5py.org/)
+<hr>
+
+### 陣列與矩陣運算
+#### [Numpy](https://numpy.org/)
