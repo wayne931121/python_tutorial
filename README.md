@@ -8,7 +8,7 @@ Python是個高階語言，使用直譯器。Python的優勢是簡單明瞭能�
 [https://www.w3schools.com/python/](https://www.w3schools.com/python/)
 
 ## Python能做什麼?
-Python有很多別人寫好的模組和強大的內建模組，可以做很多事，有些模組跑很快是因為他是用C寫的，在Python內運作。
+Python有很多別人寫好的模組和強大的內建模組，可以做很多事，有些模組跑很快因為他用C寫，在Python內運作。
 
 ## Python實用模組及功能
 
