@@ -42,7 +42,7 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### [Selenium](https://selenium-python.readthedocs.io/)
 
 ### 編輯任何檔案
-#### Python內建函數open
+Python內建函數open
 
 ### 音樂標頭編輯(MP3 ID3 Metadata)
 #### [Eyed3](https://eyed3.readthedocs.io/en/latest/eyed3.html)
