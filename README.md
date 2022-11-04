@@ -44,7 +44,7 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### [Selenium](https://selenium-python.readthedocs.io/)<hr>
 
 ### 編輯任何檔案
-Python內建函數open<hr>
+#### Python內建函數Open<hr>
 
 ### 音樂標頭編輯(MP3 ID3 Metadata)
 #### [Eyed3](https://eyed3.readthedocs.io/en/latest/eyed3.html)<hr>
@@ -61,10 +61,13 @@ Python內建函數open<hr>
 ##### [H5PY](https://docs.h5py.org/)
 <hr>
 
-### 陣列、數學與矩陣運算
+### 資料分析
+#### 陣列、數學與矩陣運算
 #### [Numpy](https://numpy.org/)
 #### [Scipy](https://scipy.org/)
 
-### 資料圖形化
+#### 資料圖形化
 #### [Matplotlib](https://matplotlib.org/)
 <hr>
+
+### 
