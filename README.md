@@ -121,6 +121,9 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 ### 物件
 #### class object_name(parent):
 
+### 刪除
+#### 
+
 ## Python資料型態
 ### str -> string 字符串
 ### int -> integer 整數
@@ -187,17 +190,19 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### >> ⇨ 將數字轉為2進制並在右邊減少數個位數再轉回數字 10>>2 ⇨ 1010>>2 ⇨ 10 ⇨ 2
 
 ## Python內建函數
-### chr
-### ord
-### str -> string 字符串
-### int -> integer 整數
-### list -> list 清單(類似陣列，但內容物型態不限)
-### dict -> dictionary 字典
-### float -> float 浮點數(小數)
-### bytes -> bytes 原始數據(只讀r)
-### bytearray -> bytearray 原始數據陣列(讀寫rw)
-### bool -> boolean 布林值(True or False)
+### chr(int) ⇨ 將指定字元Unicode編碼轉為文字
+### [Unicode解說 https://www.readfog.com/a/1638084002220969984](https://www.readfog.com/a/1638084002220969984)
+### ord(str) ⇨ 將指定文字轉為Unicode編碼
+### str(arg) ⇨ 將變數轉為字符串型態
+### int(str) ⇨ 將變數轉為整數型態，無條件捨去
+### list(arg)  ⇨ 將變數轉為list型態
+### float(arg) -> float 浮點數(小數)
+### bytes(arg) -> bytes 原始數據(只讀r)
+### bytearray(arg) -> bytearray 原始數據陣列(讀寫rw)
+### bool(arg) -> boolean 布林值(True or False)
 ### bin
 ### oct
 ### hex
 ### open
+### filter
+### map
