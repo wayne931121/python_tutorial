@@ -1,5 +1,7 @@
 # Python教學
 
+# 目錄
+
 # Python是什麼?
 Python是個高階語言，使用直譯器。Python的優勢是簡單明瞭能輕鬆開發APP，劣勢是執行速度過慢。(直譯器是邊翻譯邊執行，如Javascript語言; 編譯器是編譯完後再執行，如C語言)
 
@@ -59,6 +61,9 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 
 ### JSON編輯
 #### [JSON內建](https://docs.python.org/3/library/json.html)
+
+### TOML讀取
+#### [TOMLLIB內建](https://docs.python.org/zh-tw/dev/library/tomllib.html)
 <hr>
 
 ### 人工智慧、大數據分析
@@ -100,10 +105,9 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### [tarfile內建(tar)](https://docs.python.org/3/library/tarfile.html)
 #### [zlib內建(gzip、deflate)](https://docs.python.org/3/library/zlib.html)
 #### [gzip內建](https://docs.python.org/3/library/gzip.html)
-#### [brotli](https://python-hyper.org/projects/brotlipy/en/latest/)
-#### [內建]()
-#### [bz2內建](https://docs.python.org/3/library/bz2.html)
-#### [內建]()
+#### [brotli(br)](https://python-hyper.org/projects/brotlipy/en/latest/)
+#### [lzma內建(lzma)](https://docs.python.org/3/library/lzma.html)
+#### [bz2內建(bz2)](https://docs.python.org/3/library/bz2.html)
 
 ## Python文法結構
 
@@ -121,6 +125,7 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 ### str -> string 字符串
 ### int -> integer 整數
 ### list -> list 清單(類似陣列，但內容物型態不限)
+### dict -> dictionary 字典
 ### float -> float 浮點數(小數)
 ### bytes -> bytes 原始數據(只讀r)
 ### bytearray -> bytearray 原始數據陣列(讀寫rw)
@@ -131,6 +136,7 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 ### str -> string 字符串
 ### int -> integer 整數
 ### list -> list 清單(類似陣列，但內容物型態不限)
+### dict -> dictionary 字典
 ### float -> float 浮點數(小數)
 ### bytes -> bytes 原始數據(只讀r)
 ### bytearray -> bytearray 原始數據陣列(讀寫rw)
