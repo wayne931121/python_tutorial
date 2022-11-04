@@ -65,5 +65,5 @@ Python內建函數open<hr>
 #### [Numpy](https://numpy.org/)
 #### [Scipy](https://scipy.org/)
 
-### 圖形化
-#### [Matplotlib](https://matplotlib.org/)
+### 資料圖形化
+#### [Matplotlib](https://matplotlib.org/)<
