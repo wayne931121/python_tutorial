@@ -25,10 +25,10 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### [Request](https://requests.readthedocs.io/en/latest/)
 客戶端<br>
 爬蟲、抓包使用，向網路寄出請求，並取得回應，像是網頁原始碼。
-#### 抓包處理
-##### 將抓到的封包、原始碼進行處理，通常搭配request模組使用。
-##### [Lxml](https://lxml.de/)<br>
-##### [Beatifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/)
+##### 抓包處理
+###### 將抓到的封包、原始碼進行處理，通常搭配request模組使用。
+###### [Lxml](https://lxml.de/)<br>
+###### [Beatifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/)
 
 #### [Flask](https://flask.palletsprojects.com/en/2.2.x/)
 伺服器端<br>
