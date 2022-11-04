@@ -32,7 +32,7 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 
 #### [Scapy](https://scapy.net/)
 實用工具<br>
-嗅探工具、封包收發測試、網路攻擊工具、偽裝IP工具、網域測試。<hr>
+嗅探工具、封包收發測試、網路攻擊工具、偽裝IP工具、網域測試。
 
 ### 抓包處理
 #### 將抓到的封包、原始碼進行處理，通常搭配request模組使用。
@@ -44,7 +44,7 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### [Selenium](https://selenium-python.readthedocs.io/)<hr>
 
 ### 編輯任何檔案
-#### Python內建函數Open<hr>
+#### Python內建函數Open
 
 ### 音樂標頭編輯(MP3 ID3 Metadata)
 #### [Eyed3](https://eyed3.readthedocs.io/en/latest/eyed3.html)
