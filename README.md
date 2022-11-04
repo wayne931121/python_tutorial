@@ -34,9 +34,9 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 
 ### 抓包處理
 將抓到的封包、原始碼進行處理，通常搭配request模組使用。<br>
-#### [lxml](https://lxml.de/)<br>
-#### [beatifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/)
+#### [Lxml](https://lxml.de/)<br>
+#### [Beatifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/)
 
 ### 控制瀏覽器
 爬蟲的一種
-#### [selenium](https://selenium-python.readthedocs.io/)
+#### [Selenium](https://selenium-python.readthedocs.io/)
