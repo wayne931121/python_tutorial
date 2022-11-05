@@ -19,6 +19,12 @@ Python有很多別人寫好的模組和強大的內建模組，可以做很多�
 
 ## Python實用模組及功能
 
+### Python官方文檔
+[https://docs.python.org/3/](https://docs.python.org/3/)
+
+### Python官方模組
+[https://docs.python.org/3/library/index.html](https://docs.python.org/3/library/index.html)
+
 ### 網路:
 讀取網頁、開網頁伺服器、發送封包、接收封包
 
