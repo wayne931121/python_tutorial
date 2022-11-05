@@ -129,6 +129,8 @@ Ftp客戶端。
 #### [argparse 內建(使用者參數處理)](https://docs.python.org/3/library/argparse.html)
 #### [platform 內建(系統資訊)](https://docs.python.org/3/library/platform.html)
 #### [logging 內建(日誌設定)](https://docs.python.org/3/library/logging.html)
+#### [tempfile 內建(暫存檔案)](https://docs.python.org/3/library/tempfile.html)
+#### [pathlib 內建(檔案系統路徑處理)](https://docs.python.org/3/library/pathlib.html)
 
 ### 進程、線程
 #### [threading 內建(多線程)](https://docs.python.org/3/library/threading.html)
@@ -171,6 +173,9 @@ Ftp客戶端。
 #### [Cocos2d (寫遊戲使用，使用Pyglet庫。)](https://github.com/los-cocos/cocos)
 #### [Wxpython (GUI工具包)](https://wxpython.org/)
 
+## Python編碼解碼支援格式
+### [https://docs.python.org/3/library/codecs.html](https://docs.python.org/3/library/codecs.html)
+### [Base64編碼解碼(內建)](https://docs.python.org/3/library/base64.html)
 
 ## Python文法結構
 
