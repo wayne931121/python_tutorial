@@ -51,6 +51,7 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### 將抓到的封包、原始碼進行處理，通常搭配request模組使用。
 #### [Lxml](https://lxml.de/)<br>
 #### [Beatifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/)
+#### [JSON 內建](https://docs.python.org/3/library/json.html)
 
 ### 控制瀏覽器
 #### 爬蟲的一種
