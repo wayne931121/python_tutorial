@@ -17,12 +17,12 @@ Python有很多別人寫好的模組和強大的內建模組，可以做很多�
 ### 網路:
 讀取網頁、開網頁伺服器、發送封包、接收封包
 
-#### [Socket內建](https://docs.python.org/3/library/socket.html)
+#### [Socket 內建](https://docs.python.org/3/library/socket.html)
 客戶端、伺服器端、底層應用。<br>
 客戶端，爬蟲、嗅探使用，向伺服器寄出請求，並取得回應，像是網頁原始碼。<br>
 伺服器端，開伺服器等待用戶連接並做出相應行動。
 
-#### [SSL內建](https://docs.python.org/3/library/ssl.html)
+#### [SSL 內建](https://docs.python.org/3/library/ssl.html)
 客戶端、伺服器端、底層應用。<br>
 wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 
@@ -57,13 +57,13 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### [OpenCV](https://www.google.com/search?q=opencv+python)
 
 ### CSV編輯
-#### [CSV內建](https://docs.python.org/3/library/csv.html)
+#### [CSV 內建](https://docs.python.org/3/library/csv.html)
 
 ### JSON編輯
-#### [JSON內建](https://docs.python.org/3/library/json.html)
+#### [JSON 內建](https://docs.python.org/3/library/json.html)
 
 ### TOML讀取
-#### [TOMLLIB內建](https://docs.python.org/zh-tw/dev/library/tomllib.html)
+#### [TOMLLIB 內建](https://docs.python.org/zh-tw/dev/library/tomllib.html)
 <hr>
 
 ### 人工智慧、大數據分析
@@ -76,6 +76,7 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 <hr>
 
 ### 陣列、數學與矩陣運算
+#### [Math 內建](https://docs.python.org/3/library/math.html)
 #### [Numpy](https://numpy.org/)
 #### [Scipy](https://scipy.org/)
 
@@ -87,27 +88,27 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### [Pandas支援格式: csv, excel, xml...](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html)<hr>
 
 ### 時間
-#### [Time內建](https://docs.python.org/3/library/time.html)
-#### [Datetime內建](https://docs.python.org/3/library/datetime.html)
+#### [Time 內建(取得當前時間、計算時間差、程式休息幾秒鐘。)](https://docs.python.org/3/library/time.html)
+#### [Datetime 內建(取得當前年月日期時間。)](https://docs.python.org/3/library/datetime.html)
 
 ### 系統(系統資訊、程式資訊、檔案操作、標準輸入輸出...)、進程、線程
-#### [os內建](https://docs.python.org/3/library/os.html)
-#### [sys內建](https://docs.python.org/3/library/sys.html)
-#### [signal內建](https://docs.python.org/3/library/signal.html)
-#### [subprocess內建](https://docs.python.org/3/library/subprocess.html)
-#### [shlex內建](https://docs.python.org/3/library/shlex.html)
-#### [threading內建](https://docs.python.org/3/library/threading.html)
-#### [multiprocessing內建](https://docs.python.org/3/library/multiprocessing.html)
-#### [io內建](https://docs.python.org/3/library/io.html)
+#### [os 內建(系統資訊、程式資訊、檔案操作、標準輸入輸出...)](https://docs.python.org/3/library/os.html)
+#### [sys 內建(系統資訊、程式資訊、檔案操作、標準輸入輸出...)](https://docs.python.org/3/library/sys.html)
+#### [signal 內建(接收信號並處理，如接收Ctrl+C訊號，通常在迴圈內使用。)](https://docs.python.org/3/library/signal.html)
+#### [subprocess 內建(調用命令列命令並取得結果。)](https://docs.python.org/3/library/subprocess.html)
+#### [shlex 內建(解析文字Unix shell命令或生成安全命令。)](https://docs.python.org/3/library/shlex.html)
+#### [threading 內建(多線程)](https://docs.python.org/3/library/threading.html)
+#### [multiprocessing 內建(多進程)](https://docs.python.org/3/library/multiprocessing.html)
+#### [io 內建(輸入輸出)](https://docs.python.org/3/library/io.html)
 
 ### 壓縮編碼解碼
-#### [zipfile內建(zip)](https://docs.python.org/3/library/zipfile.html)
-#### [tarfile內建(tar)](https://docs.python.org/3/library/tarfile.html)
-#### [zlib內建(gzip、deflate)](https://docs.python.org/3/library/zlib.html)
-#### [gzip內建](https://docs.python.org/3/library/gzip.html)
-#### [brotli(br)](https://python-hyper.org/projects/brotlipy/en/latest/)
-#### [lzma內建(lzma)](https://docs.python.org/3/library/lzma.html)
-#### [bz2內建(bz2)](https://docs.python.org/3/library/bz2.html)
+#### [zipfile 內建(zip)](https://docs.python.org/3/library/zipfile.html)
+#### [tarfile 內建(tar)](https://docs.python.org/3/library/tarfile.html)
+#### [zlib 內建(gzip、deflate)](https://docs.python.org/3/library/zlib.html)
+#### [gzip 內建](https://docs.python.org/3/library/gzip.html)
+#### [brotli (br)](https://python-hyper.org/projects/brotlipy/en/latest/)
+#### [lzma 內建(lzma)](https://docs.python.org/3/library/lzma.html)
+#### [bz2 內建(bz2)](https://docs.python.org/3/library/bz2.html)
 
 ## Python文法結構
 
@@ -122,7 +123,7 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### class object_name(parent):
 
 ### 刪除
-#### 
+#### del variable_name
 
 ## Python資料型態
 ### str -> string 字符串
