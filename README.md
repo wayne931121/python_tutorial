@@ -11,7 +11,7 @@ Python官方網站，含下載、文檔、關於頁面:<br>
 到W3school學習入門文法<br>
 [https://www.w3schools.com/python/](https://www.w3schools.com/python/)
 
-到Python官方文檔教學頁面學習入門文法<br>
+到Python官方文檔教學頁面學習入門文法(左上角能調整語言)<br>
 [https://docs.python.org/3/tutorial/index.html](https://docs.python.org/3/tutorial/index.html)
 
 ## Python能做什麼?
@@ -30,6 +30,10 @@ Python有很多別人寫好的模組和強大的內建模組，可以做很多�
 #### [SSL 內建](https://docs.python.org/3/library/ssl.html)
 客戶端、伺服器端、底層應用。<br>
 wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
+
+#### [Urllib 內建](https://docs.python.org/3/library/urllib.html)
+客戶端<br>
+爬蟲、抓包使用，向網路寄出請求，並取得回應，像是網頁原始碼。
 
 #### [Request](https://requests.readthedocs.io/en/latest/)
 客戶端<br>
@@ -96,15 +100,21 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### [Time 內建(取得當前時間、計算時間差、程式休息幾秒鐘。)](https://docs.python.org/3/library/time.html)
 #### [Datetime 內建(取得當前年月日期時間。)](https://docs.python.org/3/library/datetime.html)
 
-### 系統(系統資訊、程式資訊、檔案操作、標準輸入輸出...)、進程、線程
+### 系統(系統資訊、程式資訊、檔案操作、標準輸入輸出...)
 #### [os 內建(系統資訊、程式資訊、檔案操作、標準輸入輸出...)](https://docs.python.org/3/library/os.html)
 #### [sys 內建(系統資訊、程式資訊、檔案操作、標準輸入輸出...)](https://docs.python.org/3/library/sys.html)
 #### [signal 內建(接收信號並處理，如接收Ctrl+C訊號，通常在迴圈內使用。)](https://docs.python.org/3/library/signal.html)
 #### [subprocess 內建(調用命令列命令並取得結果。)](https://docs.python.org/3/library/subprocess.html)
 #### [shlex 內建(解析文字Unix shell命令或生成安全命令。)](https://docs.python.org/3/library/shlex.html)
+#### [io 內建(輸入輸出)](https://docs.python.org/3/library/io.html)
+#### [argparse 內建(使用者參數處理)](https://docs.python.org/3/library/argparse.html)
+#### [platform 內建(系統資訊)](https://docs.python.org/3/library/platform.html)
+#### [logging 內建(日誌設定)](https://docs.python.org/3/library/logging.html)
+
+### 進程、線程
 #### [threading 內建(多線程)](https://docs.python.org/3/library/threading.html)
 #### [multiprocessing 內建(多進程)](https://docs.python.org/3/library/multiprocessing.html)
-#### [io 內建(輸入輸出)](https://docs.python.org/3/library/io.html)
+#### [concurrent.futures 內建(高階異步線程進程控制接口)](https://docs.python.org/3/library/concurrent.futures.html)
 
 ### 壓縮編碼解碼
 #### [zipfile 內建(zip)](https://docs.python.org/3/library/zipfile.html)
@@ -114,6 +124,11 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### [brotli (br)](https://python-hyper.org/projects/brotlipy/en/latest/)
 #### [lzma 內建(lzma)](https://docs.python.org/3/library/lzma.html)
 #### [bz2 內建(bz2)](https://docs.python.org/3/library/bz2.html)
+
+### C函數使用
+[ctype](https://docs.python.org/3/library/ctypes.html)
+
+### 視覺化界面
 
 ## Python文法結構
 
