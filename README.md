@@ -98,6 +98,7 @@ Ftp客戶端。
 #### [Pytorch](https://pytorch.org/)
 #### [Scikit-Learn](https://scikit-learn.org/)
 #### [Keras](https://keras.io/)
+#### [MediaPipe (人臉辨識)](https://google.github.io/mediapipe/getting_started/python.html)
 #### H5檔案讀取
 ##### [H5PY](https://docs.h5py.org/)
 <hr>
