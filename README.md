@@ -154,9 +154,11 @@ Ftp客戶端。
 ### 視覺化界面
 #### [Thinker 內建(GUI圖形使用者介面，寫應用程式使用。)](https://docs.python.org/3/library/tkinter.html)
 #### [Turtle 內建(畫畫用的)](https://docs.python.org/3/library/turtle.html)
-#### [Pygame (寫遊戲使用，使用SDL, Simple DirectMedia Layer。)](https://www.pygame.org/)
+#### [Kivy (寫應用程式使用，支援Android，iOS，Linux，OS X和Windows，使用SDL庫。)](https://kivy.org/)
+#### [Pygame (寫遊戲使用，使用SDL庫, Simple DirectMedia Layer。)](https://www.pygame.org/)
 #### [Pyglet (多媒體遊戲庫。)](https://pyglet.org/)
-#### [Cocos2d (寫遊戲使用，使用Pyglet。)](https://github.com/los-cocos/cocos)
+#### [Cocos2d (寫遊戲使用，使用Pyglet庫。)](https://github.com/los-cocos/cocos)
+
 
 ## Python文法結構
 
