@@ -81,6 +81,7 @@ Ftp客戶端。
 
 ### 照片、影片編輯，串流讀取
 #### [OpenCV](https://www.google.com/search?q=opencv+python)
+#### [Pillow](https://pillow.readthedocs.io/)
 
 ### CSV編輯
 #### [CSV 內建](https://docs.python.org/3/library/csv.html)
@@ -151,12 +152,19 @@ Ftp客戶端。
 ### 顏色轉換(例如 rgb to hsl)
 #### [colorsys 內建](https://docs.python.org/3/library/colorsys.html)
 
+### 字符串處理、檢查、正規表達式
+#### [re 內建(regex)](https://docs.python.org/3/library/re.html)
+#### [string 內建](https://docs.python.org/3/library/string.html)
+#### [inspect 內建](https://docs.python.org/3/library/inspect.html)
+
 ### 視覺化界面
 #### [Thinker 內建(GUI圖形使用者介面，寫應用程式使用。)](https://docs.python.org/3/library/tkinter.html)
 #### [Turtle 內建(畫畫用的)](https://docs.python.org/3/library/turtle.html)
 #### [Kivy (寫應用程式使用，支援Android，iOS，Linux，OS X和Windows，使用SDL庫。)](https://kivy.org/)
 #### [Pygame (寫遊戲使用，使用SDL庫, Simple DirectMedia Layer。)](https://www.pygame.org/)
 #### [Pyglet (多媒體遊戲庫。)](https://pyglet.org/)
+#### [PySide (圖形使用介面框架Qt的Python版本。)](https://doc.qt.io/qtforpython/index.html)
+#### [PyQt (圖形使用介面框架)](https://www.riverbankcomputing.com/software/pyqt/)
 #### [Cocos2d (寫遊戲使用，使用Pyglet庫。)](https://github.com/los-cocos/cocos)
 
 
@@ -257,3 +265,7 @@ Ftp客戶端。
 ### filter
 ### map
 ### callable
+
+## 參考
+#### [維基百科](https://zh.wikipedia.org/)
+#### 其他各大網站
