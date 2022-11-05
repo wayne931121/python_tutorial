@@ -3,11 +3,16 @@
 # 目錄
 
 # Python是什麼?
-Python是個高階語言，使用直譯器。Python的優勢是簡單明瞭能輕鬆開發APP，劣勢是執行速度過慢。(直譯器是邊翻譯邊執行，如Javascript語言; 編譯器是編譯完後再執行，如C語言)
+Python是個高階語言，使用直譯器。Python的優勢是簡單明瞭能輕鬆開發APP，劣勢是執行速度過慢。(直譯器是邊翻譯邊執行，如Javascript語言; 編譯器是編譯完後再執行，如C語言)<br>
+Python官方網站，含下載、文檔、關於頁面:<br>
+[https://www.python.org/](https://www.python.org/)
 
 ## 如何學習Python
 到W3school學習入門文法<br>
 [https://www.w3schools.com/python/](https://www.w3schools.com/python/)
+
+到Python官方文檔教學頁面學習入門文法<br>
+[https://docs.python.org/3/tutorial/index.html](https://docs.python.org/3/tutorial/index.html)
 
 ## Python能做什麼?
 Python有很多別人寫好的模組和強大的內建模組，可以做很多事，有些模組跑很快因為他用C寫，在Python內運作。
