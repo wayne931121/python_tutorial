@@ -143,7 +143,7 @@ Ftp客戶端。
 #### [bz2 內建(bz2)](https://docs.python.org/3/library/bz2.html)
 
 ### C函數使用
-#### [ctypes](https://docs.python.org/3/library/ctypes.html)
+#### [ctypes 內建](https://docs.python.org/3/library/ctypes.html)
 
 ### MIMETYPE處理
 #### [mimetypes 內建](https://docs.python.org/3/library/mimetypes.html)
