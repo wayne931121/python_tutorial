@@ -8,7 +8,7 @@ Python官方網站，含下載、文檔、關於頁面:<br>
 [https://www.python.org/](https://www.python.org/)
 
 ## 如何學習Python
-到W3school學習入門文法<br>
+到W3school學習入門文法(右上角地球符號能用Google翻譯調整語言)<br>
 [https://www.w3schools.com/python/](https://www.w3schools.com/python/)
 
 到Python官方文檔教學頁面學習入門文法(左上角能調整語言)<br>
@@ -127,7 +127,7 @@ wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 #### [bz2 內建(bz2)](https://docs.python.org/3/library/bz2.html)
 
 ### C函數使用
-[ctype](https://docs.python.org/3/library/ctypes.html)
+#### [ctypes](https://docs.python.org/3/library/ctypes.html)
 
 ### 視覺化界面
 
