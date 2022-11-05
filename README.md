@@ -146,10 +146,10 @@ Ftp客戶端。
 #### [ctypes](https://docs.python.org/3/library/ctypes.html)
 
 ### MIMETYPE處理
-#### [mimetypes](https://docs.python.org/3/library/mimetypes.html)
+#### [mimetypes 內建](https://docs.python.org/3/library/mimetypes.html)
 
 ### 顏色轉換(例如 rgb to hsl)
-#### [colorsys](https://docs.python.org/3/library/colorsys.html)
+#### [colorsys 內建](https://docs.python.org/3/library/colorsys.html)
 
 ### 視覺化界面
 #### [Thinker 內建(GUI圖形使用者介面，寫應用程式使用。)](https://docs.python.org/3/library/tkinter.html)
