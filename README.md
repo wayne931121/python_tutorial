@@ -7,6 +7,12 @@ Python是個高階語言，使用直譯器。Python的優勢是簡單明瞭能�
 Python官方網站，含下載、文檔、關於頁面:<br>
 [https://www.python.org/](https://www.python.org/)
 
+Python官方文檔<br>
+[https://docs.python.org/3/](https://docs.python.org/3/)
+
+Python官方模組<br>
+[https://docs.python.org/3/library/index.html](https://docs.python.org/3/library/index.html)
+
 ## 如何學習Python
 到W3school學習入門文法(右上角地球符號能用Google翻譯調整語言)<br>
 [https://www.w3schools.com/python/](https://www.w3schools.com/python/)
@@ -18,12 +24,6 @@ Python官方網站，含下載、文檔、關於頁面:<br>
 Python有很多別人寫好的模組和強大的內建模組，可以做很多事，有些模組跑很快因為他用C寫，在Python內運作。
 
 ## Python實用模組及功能
-
-#### Python官方文檔
-[https://docs.python.org/3/](https://docs.python.org/3/)
-
-#### Python官方模組
-[https://docs.python.org/3/library/index.html](https://docs.python.org/3/library/index.html)
 
 ### 網路:
 讀取網頁、開網頁伺服器、發送封包、接收封包
