@@ -162,10 +162,13 @@ Ftp客戶端。
 #### [Turtle 內建(畫畫用的)](https://docs.python.org/3/library/turtle.html)
 #### [Kivy (寫應用程式使用，支援Android，iOS，Linux，OS X和Windows，使用SDL庫。)](https://kivy.org/)
 #### [Pygame (寫遊戲使用，使用SDL庫, Simple DirectMedia Layer。)](https://www.pygame.org/)
+#### [PySimpleGUI (GUI)](https://www.pysimplegui.org/)
+#### [PyGTK (Gtk+的圖形使用介面庫 PyGObject)](https://pygobject.readthedocs.io/en/latest/index.html)
 #### [Pyglet (多媒體遊戲庫。)](https://pyglet.org/)
 #### [PySide (圖形使用介面框架Qt的Python版本。)](https://doc.qt.io/qtforpython/index.html)
 #### [PyQt (圖形使用介面框架)](https://www.riverbankcomputing.com/software/pyqt/)
 #### [Cocos2d (寫遊戲使用，使用Pyglet庫。)](https://github.com/los-cocos/cocos)
+#### [Wxpython (GUI工具包)](https://wxpython.org/)
 
 
 ## Python文法結構
