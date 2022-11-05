@@ -37,6 +37,17 @@ Python有很多別人寫好的模組和強大的內建模組，可以做很多�
 客戶端、伺服器端、底層應用。<br>
 wrap socket with ssl.包裝ssl到socket上，如讓http變成https。
 
+#### [IpAddress內建](https://docs.python.org/3/library/ipaddress.html)
+底層應用<br>
+處理IP字符串
+
+#### [Http 內建](https://docs.python.org/3/library/http.html)
+客戶端、伺服器端
+
+#### [Ftplib 內建](https://docs.python.org/3/library/ftplib.html)
+客戶端<br>
+Ftp客戶端
+
 #### [Urllib 內建](https://docs.python.org/3/library/urllib.html)
 客戶端<br>
 爬蟲、抓包使用，向網路寄出請求，並取得回應，像是網頁原始碼。
