@@ -206,6 +206,22 @@ Ftp客戶端。
 ### 物件
 #### class object_name(parent):
 
+### 如果...做
+#### if flag: //如果flag是True則做...
+####   doSomthing
+#### elif flag1: //又或者如果flag1是True則做...
+####   doSomthing
+#### else:  //又或者則做...
+####   doSomthing
+
+### 嘗試...捕捉錯誤
+#### try
+####   doSomthing
+#### except Exception as e: //將預期到的錯誤視為e
+####   doSomthing
+#### finally:  //到最後，無論如何都要做...
+####   doSomthing
+
 ### 刪除
 #### del variable_name
 
@@ -278,19 +294,19 @@ Ftp客戶端。
 ### chr(int) ⇨ 將指定字元Unicode編碼轉為文字[Unicode解說 https://www.readfog.com/a/1638084002220969984](https://www.readfog.com/a/1638084002220969984)
 ### ord(str) ⇨ 將指定文字轉為Unicode編碼
 ### str(arg) ⇨ 將變數轉為字符串型態
-### int(str) ⇨ 將變數轉為整數型態，無條件捨去
+### int(str) ⇨ 將變數轉為整數型態，無條件捨去; 或是將十進位數字轉為其他數字
 ### list(arg)  ⇨ 將變數轉為list型態
-### float(arg) -> float 浮點數(小數)
-### bytes(arg) -> bytes 原始數據(只讀r)
-### bytearray(arg) -> bytearray 原始數據陣列(讀寫rw)
-### bool(arg) -> boolean 布林值(True or False)
-### bin
-### oct
-### hex
-### open
-### filter
-### map
-### callable
+### float(arg) ⇨ float 浮點數(小數)
+### bytes(arg) ⇨ bytes 原始數據(只讀r)
+### bytearray(arg) ⇨ bytearray 原始數據陣列(讀寫rw)
+### bool(arg) ⇨ boolean 布林值(True or False)
+### bin(int) ⇨ 將十進位數字轉為二進位
+### oct(int) ⇨ 將十進位數字轉為八進位
+### hex(int) ⇨ 將十進位數字轉為十六進位
+### open(str file_path, str mode, encoding=str encoding) ⇨ 開啟檔案(檔案路徑file_path, 模式mode, encoding=編碼方式)
+### filter(function, iterable) ⇨ 將可遍歷物件iterable放進函數function內個別執行篩選得到一個新的list
+### map(function, iterable) ⇨ 將可遍歷物件iterable放進函數function內個別執行得到一個新的list
+### callable(arg) ⇨ 檢查指定參數arg是否可以呼叫調用
 
 ## 參考
 #### [維基百科](https://zh.wikipedia.org/)
