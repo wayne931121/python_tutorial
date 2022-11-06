@@ -306,31 +306,40 @@ Ftp客戶端。
 
 ## Python內建函數
 ### [https://docs.python.org/3/library/functions.html](https://docs.python.org/3/library/functions.html)
+iterable: 可遍歷物件，arg: argument參數。
 ### chr(int) ⇨ 將指定字元Unicode編碼轉為文字[Unicode解說 https://www.readfog.com/a/1638084002220969984](https://www.readfog.com/a/1638084002220969984)
 ### ord(str) ⇨ 將指定文字轉為Unicode編碼
 ### str(arg) ⇨ 將變數轉為字符串型態
 ### int(str, int base) ⇨ 將變數轉為整數型態，無條件捨去; 或是將十進位數字轉為其他數字
-### list(arg)  ⇨ 將變數轉為list型態
-### tuple(arg)
-### set(arg) ⇨ 將變數轉為dict型態，或是建立字典
-### float(arg) ⇨ float 浮點數(小數)
-### bytes(arg) ⇨ bytes 原始數據(只讀r)
-### bytearray(arg) ⇨ bytearray 原始數據陣列(讀寫rw)
-### bool(arg) ⇨ boolean 布林值(True or False)
+### list(iterable)  ⇨ 將可遍歷變數轉為list型態
+### tuple(iterable)  ⇨ 將可遍歷變數轉為tuple型態
+### set(iterable) ⇨ 將可遍歷變數轉為dict型態，或是建立字典
+### float(arg) ⇨ 將參數轉為float
+### bytes(arg) ⇨ 將參數轉為bytes
+### bytearray(arg) ⇨  將參數轉為bytearray
+### bool(arg) ⇨ 將參數轉為布林值有值或非為空為True，無值或空的或None為False
 ### bin(int) ⇨ 將十進位數字轉為二進位
 ### oct(int) ⇨ 將十進位數字轉為八進位
 ### hex(int) ⇨ 將十進位數字轉為十六進位
 ### open(str file_path, str mode, encoding=str encoding) ⇨ 開啟檔案(檔案路徑file_path, 模式mode, encoding=編碼方式)
-### print(\*args)
+### print(\*args) ⇨ 打印參數
+### len(arg) ⇨ 回傳參數長度
+### range(int start, int end, int 間距) ⇨ range(起始值, 終點值_不包含, 間隔)
+### abs(int) ⇨ 回傳絕對值
+### pow(int, int) ⇨ 次方，pow(2, 5)=2**5=2*2*2*2*2=32，pow(32,1/5)=2
+### max(\*args) ⇨ 回傳最大值
+### min(\*args) ⇨ 回傳最小值
+### id(arg) ⇨ 回傳變數id
+### iter(arg) ⇨ 將參數變成可遍歷物件回傳
+### next(iterable) ⇨ 回傳可遍歷物件的下個物件，若已到結尾則拋出錯誤
 ### filter(function, iterable) ⇨ 將可遍歷物件iterable放進函數function內個別執行篩選得到一個新的list
 ### map(function, iterable) ⇨ 將可遍歷物件iterable放進函數function內個別執行得到一個新的list
 ### callable(arg) ⇨ 檢查指定參數arg是否可以呼叫調用
 ### eval(str) ⇨ 將字符串視為程式碼執行並回傳值，不可賦值。
 ### exec(str) ⇨ 將字符串視為程式碼執行並回傳是否成功。
 ### dir(arg) ⇨ 取得變數、物件、模組所有可用方法。(__dir__())
-### pow(int, int) ⇨ 次方，pow(2, 5)=2**5=2*2*2*2*2=32
-### type(arg) ⇨
-### help() ⇨ help info
+### type(arg) ⇨ 取得參數型態
+### help() ⇨ help info，取得模組資訊介紹
 
 ## 參考
 #### [維基百科](https://zh.wikipedia.org/)
