@@ -325,13 +325,19 @@ iterable: 可遍歷物件，arg: argument參數。
 ### print(\*args) ⇨ 打印參數
 ### len(arg) ⇨ 回傳參數長度
 ### range(int start, int end, int 間距) ⇨ range(起始值, 終點值_不包含, 間隔)
+### enumerate(iterable, start=int) ⇨ 將可遍歷物件每個項目加上index
+### zip(\*iterables, strict=False) ⇨ 將數個可遍歷物件壓縮成一個供遍歷使用
+### reversed(iterables) ⇨ 回傳可遍歷物件反轉
 ### abs(int) ⇨ 回傳絕對值
+### round(int, ndigits=int) ⇨ 通常為四捨五入
 ### pow(int, int) ⇨ 次方，pow(2, 5)=2**5=2*2*2*2*2=32，pow(32,1/5)=2
 ### max(\*args) ⇨ 回傳最大值
 ### min(\*args) ⇨ 回傳最小值
 ### id(arg) ⇨ 回傳變數id
 ### iter(arg) ⇨ 將參數變成可遍歷物件回傳
 ### next(iterable) ⇨ 回傳可遍歷物件的下個物件，若已到結尾則拋出錯誤
+### globals() ⇨ 回傳全域變數
+### locals() ⇨ 回傳區域變數
 ### filter(function, iterable) ⇨ 將可遍歷物件iterable放進函數function內個別執行篩選得到一個新的list
 ### map(function, iterable) ⇨ 將可遍歷物件iterable放進函數function內個別執行得到一個新的list
 ### callable(arg) ⇨ 檢查指定參數arg是否可以呼叫調用
