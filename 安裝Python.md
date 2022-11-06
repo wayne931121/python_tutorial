@@ -35,3 +35,4 @@ ipython<br>
 適合很常使用Python的人，能輕鬆編輯運作Python。不適合會很常使用多程式語言而Python並沒有占他們程式語言很重要一部分的人。
 #### Vscode
 適合使用多程式語言且用Windows的人，能輕鬆編輯運作Python，但是自動拚字很煩人記得關。(自動拚字: 自動提示、auto-completion)。
+<hr>
