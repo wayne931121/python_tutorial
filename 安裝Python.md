@@ -18,8 +18,8 @@ Hello World
 
 C:\Users\$UserName>
 ```
-# Python可用來開發Python的工具
-
+## Python可用來開發Python的工具
+<hr>
 ### 程式碼編輯器(文字編輯器)
 #### Notepad++(推薦)
 #### Notepad Windows內建
