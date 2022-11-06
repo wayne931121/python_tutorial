@@ -198,10 +198,10 @@ Ftp客戶端。
 #### [Js2Py](https://github.com/PiotrDabkowski/Js2Py)
 #### [STPyV8](https://github.com/cloudflare/stpyv8)
 
-#### 加速Python的幾種方法
-##### 1. 改善程式結構
-##### 2. 將遞歸函數改成迴圈
-##### 3. 使用cpython或pypy
+## 加速Python的幾種方法
+### 1. 改善程式結構
+### 2. 將遞歸函數改成迴圈
+### 3. 使用cpython或pypy
 
 ## Python編碼解碼支援格式
 ### [https://docs.python.org/3/library/codecs.html](https://docs.python.org/3/library/codecs.html)
