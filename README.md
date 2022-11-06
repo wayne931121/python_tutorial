@@ -210,7 +210,7 @@ Ftp客戶端。
 ## Python文法結構
 
 ### 函數
-#### def function_name(args*, kargs**): return value
+#### def function_name(*args, **kargs): return value
 
 ### 迴圈
 #### for i in iterObject: doSomething
@@ -239,13 +239,14 @@ Ftp客戶端。
 #### del variable_name
 
 ## Python資料型態
-### str -> string 字符串
-### int -> integer 整數
-### list -> list 清單(類似陣列，但內容物型態不限)
-### dict -> dictionary 字典
-### float -> float 浮點數(小數)
-### bytes -> bytes 原始數據(只讀r)
-### bytearray -> bytearray 原始數據陣列(讀寫rw)
+### str -> string 字符串 "文字"
+### int -> integer 整數  1
+### list -> list 清單(類似陣列，但內容物型態不限) ["文字",1,...]
+### tuple -> tuple 類似list，但只讀不能更改 ("文字",1,...)
+### dict -> dictionary 字典(查表用) {"魚":fish,...}
+### float -> float 浮點數(小數) 1.111
+### bytes -> bytes 原始數據(只讀r) b'\xe6\x88\x91\xe6\x84\x9b\xe4\xbd\xa0'
+### bytearray -> bytearray 原始數據陣列(讀寫rw) bytearray(b'\xe6\x88\x91\xe6\x84\x9b\xe4\xbd\xa0')
 ### bool -> boolean 布林值(True or False)
 
 ## Python運算子
@@ -309,6 +310,7 @@ Ftp客戶端。
 ### str(arg) ⇨ 將變數轉為字符串型態
 ### int(str) ⇨ 將變數轉為整數型態，無條件捨去; 或是將十進位數字轉為其他數字
 ### list(arg)  ⇨ 將變數轉為list型態
+### set(arg) ⇨ 建立字典
 ### float(arg) ⇨ float 浮點數(小數)
 ### bytes(arg) ⇨ bytes 原始數據(只讀r)
 ### bytearray(arg) ⇨ bytearray 原始數據陣列(讀寫rw)
