@@ -135,6 +135,7 @@ Ftp客戶端。
 ### 時間
 #### [Time 內建(取得當前時間、計算時間差、程式休息幾秒鐘。)](https://docs.python.org/3/library/time.html)
 #### [Datetime 內建(取得當前年月日期時間。)](https://docs.python.org/3/library/datetime.html)
+#### [Timeit 內建(測試程式運作時間)](https://docs.python.org/3/library/timeit.html)
 
 ### 系統(系統資訊、程式資訊、檔案操作、標準輸入輸出...)
 #### [os 內建(系統資訊、程式資訊、檔案操作、標準輸入輸出...)](https://docs.python.org/3/library/os.html)
@@ -189,6 +190,18 @@ Ftp客戶端。
 #### [PyQt (圖形使用介面框架)](https://www.riverbankcomputing.com/software/pyqt/)
 #### [Cocos2d (寫遊戲使用，使用Pyglet庫。)](https://github.com/los-cocos/cocos)
 #### [Wxpython (GUI工具包)](https://wxpython.org/)
+
+### 打包成exe檔
+#### [PyInstaller](https://pyinstaller.org/)
+
+### 運作Javascript
+#### [Js2Py](https://github.com/PiotrDabkowski/Js2Py)
+#### [STPyV8](https://github.com/cloudflare/stpyv8)
+
+#### 加速Python的幾種方法
+##### 1. 改善程式結構
+##### 2. 將遞歸函數改成迴圈
+##### 3. 使用cpython或pypy
 
 ## Python編碼解碼支援格式
 ### [https://docs.python.org/3/library/codecs.html](https://docs.python.org/3/library/codecs.html)
