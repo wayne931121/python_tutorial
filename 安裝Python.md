@@ -19,9 +19,11 @@ Hello World
 C:\Users\$UserName>
 ```
 ## Python可用來開發Python的工具
+
 ### 程式碼編輯器(文字編輯器)
 #### Notepad++(推薦)
 #### Notepad Windows內建
+<hr>
 
 ### 整合執行環境
 #### Jupyter Notebook (推薦)
