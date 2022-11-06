@@ -362,7 +362,8 @@ Traceback (most recent call last):
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 >>> str(1)+"P"
 '1P'
-
+```
+```cmd
 >>> int("5")
 5
 >>> "5"+"5"
@@ -381,10 +382,12 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 0
 >>> int(1.5)
 1
-
+```
+```cmd
 >>> float(1)
 1.0
-
+```
+```cmd
 >>> list("YRTYAAAdd__5546}}")
 ['Y', 'R', 'T', 'Y', 'A', 'A', 'A', 'd', 'd', '_', '_', '5', '5', '4', '6', '}', '}']
 >>> list("YRTYAAAdd__5546}}")[0]
@@ -393,13 +396,16 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 'R'
 >>> list("YRTYAAAdd__5546}}")[-1]
 '}'
-
+```
+```cmd
 >>> tuple([1,2,3,4,5,6])
 (1, 2, 3, 4, 5, 6)
-
+```
+```cmd
 >>> set([1,2,3])
 {1, 2, 3}
-
+```
+```cmd
 >>> bytes("我", encoding="utf-8")
 b'\xe6\x88\x91'
 
@@ -429,7 +435,8 @@ bytearray(b'\xe6\x88\x91')
 bytearray(b'\x01\x88\x91')
 >>> a[0]
 1
-
+```
+```cmd
 >>> bool
 <class 'bool'>
 >>> bool(0)
