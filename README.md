@@ -342,13 +342,116 @@ b'\xe6\x88\x91'
 ```
 ### str(arg) ⇨ 將變數轉為字符串型態
 ### int(str, int base) ⇨ 將變數轉為整數型態，無條件捨去; 或是將十進位數字轉為其他數字
+### float(arg) ⇨ 將參數轉為float
 ### list(iterable)  ⇨ 將可遍歷變數轉為list型態
 ### tuple(iterable)  ⇨ 將可遍歷變數轉為tuple型態
 ### set(iterable) ⇨ 將可遍歷變數轉為dict型態，或是建立字典
-### float(arg) ⇨ 將參數轉為float
 ### bytes(arg) ⇨ 將參數轉為bytes
 ### bytearray(arg) ⇨  將參數轉為bytearray
 ### bool(arg) ⇨ 將參數轉為布林值有值或非為空為True，無值或空的或None為False
+```cmd
+>>> str(123)
+'123'
+>>> str([1,2.3])
+'[1, 2.3]'
+>>> str(True)
+'True'
+>>> 1+"P"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> str(1)+"P"
+'1P'
+
+>>> int("5")
+5
+>>> "5"+"5"
+'55'
+>>> int("5")+int("5")
+10
+>>> int("ffffff", 16)
+16777215
+>>> int("10000000000", 2)
+1024
+>>> int(True)
+1
+>>> int(False)
+0
+>>> int(0.5)
+0
+>>> int(1.5)
+1
+
+>>> float(1)
+1.0
+
+>>> list("YRTYAAAdd__5546}}")
+['Y', 'R', 'T', 'Y', 'A', 'A', 'A', 'd', 'd', '_', '_', '5', '5', '4', '6', '}', '}']
+>>> list("YRTYAAAdd__5546}}")[0]
+'Y'
+>>> list("YRTYAAAdd__5546}}")[1]
+'R'
+>>> list("YRTYAAAdd__5546}}")[-1]
+'}'
+
+>>> tuple([1,2,3,4,5,6])
+(1, 2, 3, 4, 5, 6)
+
+>>> set([1,2,3])
+{1, 2, 3}
+
+>>> bytes("我", encoding="utf-8")
+b'\xe6\x88\x91'
+
+>>> bytes("我", encoding="utf-8")[0]=1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'bytes' object does not support item assignment
+
+>>> bytearray("我", encoding="utf-8")[0]=1
+
+>>> bytearray("我", encoding="utf-8")
+bytearray(b'\xe6\x88\x91')
+
+>>> a = bytearray(b'\xe6\x88\x91') #as same as: a=bytearray("我", encoding="utf-8")
+>>> a
+bytearray(b'\xe6\x88\x91')
+>>> a[0]
+230
+>>> a[1]
+136
+>>> a[2]
+145
+>>> len(a)
+3
+>>> a[0]=1
+>>> a
+bytearray(b'\x01\x88\x91')
+>>> a[0]
+1
+
+>>> bool
+<class 'bool'>
+>>> bool(0)
+False
+>>> bool(1)
+True
+>>> bool(104516547452)
+True
+>>> bool(None)
+False
+>>> bool("")
+False
+>>> bool(b"")
+False
+>>> bool("fggfdhghh5643fcxg")
+True
+>>> bool("RRR")
+True
+>>> bool(bool)
+True
+>>>
+```
 ### bin(int) ⇨ 將十進位數字轉為二進位
 ### oct(int) ⇨ 將十進位數字轉為八進位
 ### hex(int) ⇨ 將十進位數字轉為十六進位
