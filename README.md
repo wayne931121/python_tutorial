@@ -248,7 +248,149 @@ Ftp客戶端。
 ### bytes -> bytes 原始數據(只讀r) b'\xe6\x88\x91\xe6\x84\x9b\xe4\xbd\xa0'
 ### bytearray -> bytearray 原始數據陣列(讀寫rw) bytearray(b'\xe6\x88\x91\xe6\x84\x9b\xe4\xbd\xa0')
 ### bool -> boolean 布林值(True or False)
+```cmd
+>>> a = "text"
+>>> type(a)
+<class 'str'>
+>>>
+>>> a[0]
+'t'
+>>> a[1]
+'e'
+>>> a[-1]
+'t'
+>>> a[0]="Y"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+>>>
+>>> a = list(a)
+>>> a
+['t', 'e', 'x', 't']
+>>> a[0]
+'t'
+>>> a[1]
+'e'
+>>> a[-1]
+'t'
+>>> a[0:2]
+['t', 'e']
+>>> a[0]="Y"
+>>> a
+['Y', 'e', 'x', 't']
+>>> a[0]
+'Y'
+>>> "".join(a)
+'Yext'
+>>> "HEY".join(a)
+'YHEYeHEYxHEYt'
+>>> ".".join(a)
+'Y.e.x.t'
+>>> a = "".join(a)
+>>> a
+'Yext'
+```
+```cmd
+>>> a = 1
+>>> type(1)
+<class 'int'>
+>>> a + 1
+2
+>>> a
+1
+>>> a = a+1
+>>> a
+2
+>>> a += 10
+>>> a
+12
+>>>
+```
 
+```cmd
+>>################# Tuple #################
+>>> (0,1,2)
+(0, 1, 2)
+>>> type((0,1,2))
+<class 'tuple'>
+>>> (0,1,2)[0]
+0
+>>> a = (0,1,2)
+>>> a[0]
+0
+>>> a[0]=5
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+>>>############### List ####################
+>>> a = [0,1,2]
+>>> a
+[0, 1, 2]
+>>> a[0]
+0
+>>> a[0]=5
+>>> a
+[5, 1, 2]
+>>> type([0,1,2])
+<class 'list'>
+>>> type(a)
+<class 'list'>
+>>>
+```
+
+```cmd
+>>> {"TT":1, 0:"OO", True: print}
+{'TT': 1, 0: 'OO', True: <built-in function print>}
+>>> type({"TT":1, 0:"OO", True: print})
+<class 'dict'>
+>>> {"TT":1, 0:"OO", True: print}[True]
+<built-in function print>
+>>> {"TT":1, 0:"OO", True: print}[True]("123")
+123
+>>> {"TT":1, 0:"OO", True: print}[0]
+'OO'
+>>> {"TT":1, 0:"OO", True: print}["TT"]
+1
+```
+
+```cmd
+>>> type(135.54)
+<class 'float'>
+```
+
+```cmd
+>>> bytes("YY牛Z", encoding="utf-8")
+b'YY\xe7\x89\x9bZ'
+
+>>> b"123"
+b'123'
+
+>>> type(b"123")
+<class 'bytes'>
+```
+
+```cmd
+>>> bytearray("YY牛Z", encoding="utf-8")
+bytearray(b'YY\xe7\x89\x9bZ')
+
+>>> bytearray(b'YY\xe7\x89\x9bZ')
+bytearray(b'YY\xe7\x89\x9bZ')
+
+>>> type(bytearray(b'YY\xe7\x89\x9bZ'))
+<class 'bytearray'>
+```
+```cmd
+>>> True
+True
+>>> False
+False
+>>> type(True)
+<class 'bool'>
+>>> a = False
+>>> type(a)
+<class 'bool'>
+>>>
+```
 ## Python運算子
 ## [https://www.w3schools.com/python/python_operators.asp](https://www.w3schools.com/python/python_operators.asp)
 
