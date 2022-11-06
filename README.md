@@ -305,12 +305,14 @@ Ftp客戶端。
 #### >> ⇨ 將數字轉為2進制並在右邊減少數個位數再轉回數字 10>>2 ⇨ 1010>>2 ⇨ 10 ⇨ 2
 
 ## Python內建函數
+### [https://docs.python.org/3/library/functions.html](https://docs.python.org/3/library/functions.html)
 ### chr(int) ⇨ 將指定字元Unicode編碼轉為文字[Unicode解說 https://www.readfog.com/a/1638084002220969984](https://www.readfog.com/a/1638084002220969984)
 ### ord(str) ⇨ 將指定文字轉為Unicode編碼
 ### str(arg) ⇨ 將變數轉為字符串型態
-### int(str) ⇨ 將變數轉為整數型態，無條件捨去; 或是將十進位數字轉為其他數字
+### int(str, int base) ⇨ 將變數轉為整數型態，無條件捨去; 或是將十進位數字轉為其他數字
 ### list(arg)  ⇨ 將變數轉為list型態
-### set(arg) ⇨ 建立字典
+### tuple(arg)
+### set(arg) ⇨ 將變數轉為dict型態，或是建立字典
 ### float(arg) ⇨ float 浮點數(小數)
 ### bytes(arg) ⇨ bytes 原始數據(只讀r)
 ### bytearray(arg) ⇨ bytearray 原始數據陣列(讀寫rw)
@@ -319,9 +321,16 @@ Ftp客戶端。
 ### oct(int) ⇨ 將十進位數字轉為八進位
 ### hex(int) ⇨ 將十進位數字轉為十六進位
 ### open(str file_path, str mode, encoding=str encoding) ⇨ 開啟檔案(檔案路徑file_path, 模式mode, encoding=編碼方式)
+### print(\*args)
 ### filter(function, iterable) ⇨ 將可遍歷物件iterable放進函數function內個別執行篩選得到一個新的list
 ### map(function, iterable) ⇨ 將可遍歷物件iterable放進函數function內個別執行得到一個新的list
 ### callable(arg) ⇨ 檢查指定參數arg是否可以呼叫調用
+### eval(str) ⇨ 將字符串視為程式碼執行並回傳值，不可賦值。
+### exec(str) ⇨ 將字符串視為程式碼執行並回傳是否成功。
+### dir(arg) ⇨ 取得變數、物件、模組所有可用方法。(__dir__())
+### pow(int, int) ⇨ 次方，pow(2, 5)=2**5=2*2*2*2*2=32
+### type(arg) ⇨
+### help() ⇨ help info
 
 ## 參考
 #### [維基百科](https://zh.wikipedia.org/)
