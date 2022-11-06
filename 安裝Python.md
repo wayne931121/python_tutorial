@@ -3,7 +3,8 @@
 #### [https://www.python.org/downloads/](https://www.python.org/downloads/)
 ### 2. 安裝Python(Install Python)
 ### 3. 設定環境變數(如果安裝時設定則免除這步驟)
-完成後打開電腦的CMD(Windows -> 按:Windows+R, 輸入:cmd, 按:Enter)<br>鍵入Python，如果有找到命令或出現類似以下資料就成功了!
+完成後打開電腦的CMD鍵入Python，如果有找到命令或出現類似以下資料就成功了!<br>
+註: 打開CMD : (Windows -> 按:Windows+R, 輸入:cmd, 按:Enter)
 ```cmd
 Microsoft Windows [版本 10.0.19043.2130]
 (c) Microsoft Corporation. 著作權所有，並保留一切權利。
