@@ -99,6 +99,7 @@ Ftp客戶端。
 ### 照片、影片編輯，串流讀取
 #### [OpenCV](https://www.google.com/search?q=opencv+python)
 #### [Pillow](https://pillow.readthedocs.io/)
+#### [Moviepy](https://zulko.github.io/moviepy/)
 
 ### CSV編輯
 #### [CSV 內建](https://docs.python.org/3/library/csv.html)
