@@ -87,7 +87,7 @@ Ftp客戶端。
 #### [JSON 內建](https://docs.python.org/3/library/json.html)
 
 ### 控制瀏覽器
-#### 爬蟲的一種
+爬蟲的一種
 #### [Selenium](https://selenium-python.readthedocs.io/)<hr>
 
 ### 編輯任何檔案
