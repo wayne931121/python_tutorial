@@ -405,8 +405,7 @@ False
 #### \% ⇨ 除完取餘數 x%y=2%7=2
 #### \*\* ⇨ 次方 x\*\*y=2\*\*7=2\*2\*2\*2\*2\*2\*2=128
 
-<details>
-### <summary>Python指定運算子(Assignment Operators)</summary>
+### Python指定運算子(Assignment Operators)
 | 運算子  | 示例      | 相當於     | 結果     |
 | --------- | ----------- | ---------- | -------- |
 | =       | x=2       | x=2        | x=2      |
@@ -422,7 +421,6 @@ False
 | ^=      | x^=10     | x=x^10     | x=8      |
 | >>=     | x>>=10    | x=x>>10    | x=0      |
 | <<=     | x<<=10    | x=x<<10    | x=2048   |
-</details>
 
 ### Python比較運算子(關係運算子)(Comparison Operators)
 #### ==  ⇨ x==2: True,  x是2(x等於2)
