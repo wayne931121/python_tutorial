@@ -86,7 +86,9 @@ Output:
 a
 b
 c
+```
 
+```python
 Input:
 for i in {"t":0, 3:"G", "L39":print}.items():
     print(i[0], ":", i[1])
