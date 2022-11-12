@@ -93,3 +93,70 @@ def MyFunction(m=5, a):
 Output:
 SyntaxError: non-default argument follows default argument
 ```
+### 函數的回傳值
+函數預設的回傳值為None
+
+```python
+def a():
+    pass
+
+a()
+```
+```
+Output:
+```
+
+```python
+def a():
+    pass
+
+print(a())
+```
+```
+Output:
+None
+```
+
+指定回傳值
+```python
+def a():
+    return 1
+
+a()
+```
+```
+Output:
+1
+```
+
+將變數賦予回傳值(紀錄回傳值)
+
+```python
+def a():
+    return 1
+
+b = a()
+print(b)
+```
+```
+Output:
+1
+```
+
+再一個舉例
+
+```python
+def hi(words):
+    w1 = list(words)
+    w1[0] = words[-1]
+    w1[-1] = words[0]
+    words = "".join(w1).upper()
+    return words
+
+b = hi("Hello MyFriends")
+print(b)
+```
+```
+Output:
+SELLO MYFRIENDH
+```
