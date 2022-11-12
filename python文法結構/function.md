@@ -207,3 +207,24 @@ g
 ('c', [636, 888])
 ('g', {'A': 1})
 ```
+
+再一個舉例
+
+
+```python
+def function_name(*args, **kargs):
+    for i in args: print(i)
+    for k, i in zip(kargs.keys(), kargs.items()): print(k, ":", i)
+
+function_name(1,2,3, h=4, i=5, k=6, g=7)
+```
+```python
+Output:
+1
+2
+3
+h : ('h', 4)
+i : ('i', 5)
+k : ('k', 6)
+g : ('g', 7)
+```
