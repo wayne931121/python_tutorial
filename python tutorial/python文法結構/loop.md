@@ -157,7 +157,7 @@ Output:
 8
 9
 ```
-#### continue跳過本次迴圈
+#### continue跳過本次迴圈(跳過離我們最近的迴圈)
 
 ```python
 for i in range(5):
@@ -172,7 +172,7 @@ Output:
 4
 ```
 
-#### break停止、跳出迴圈
+#### break停止、跳出迴圈(跳出離我們最近的迴圈)
 
 ```python
 for i in range(5):
