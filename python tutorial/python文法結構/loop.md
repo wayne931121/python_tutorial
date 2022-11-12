@@ -54,16 +54,23 @@ Output:
 ```python
 Input:
 list(range(6))
+
 Output:
 [0, 1, 2, 3, 4, 5]
+```
 
+```python
 Input:
 list(range(2, 9))
+
 Output:
 [2, 3, 4, 5, 6, 7, 8]
+```
 
+```python
 Input:
 list(range(3,10,2))
+
 Output:
 [3, 5, 7, 9]
 ```
@@ -88,7 +95,9 @@ Output:
 t : 0
 3 : G
 L39 : <built-in function print>
+```
 
+```python
 Input:
 for i in "KK__\nGHYYK536DD?!\'\"^^)++":
     print(i)
@@ -164,7 +173,9 @@ Output:
 (0, 5)
 (1, 7)
 (3, 5)
+```
 
+```python
 Input:
 a = "GGB"
 a = iter(a)
@@ -192,7 +203,9 @@ sum_i0(100, 0)
 
 Output:
 5050 #100+99+98+97......+2+1+0 = (100+0)*101/2 = 5050
+```
 
+```python
 Input:
 def sum_i1(i, max_limit):
     if i<max_limit:
@@ -203,7 +216,9 @@ sum_i1(0, 100)
 
 Output:
 5050 #0+1+2+3+4+5+6......+99+100 = (100+0)*101/2 = 5050
+```
 
+```python
 Input:
 def CustomSum(i, min_limit, table={}):
     if i>min_limit:
