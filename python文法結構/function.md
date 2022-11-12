@@ -160,3 +160,50 @@ print(b)
 Output:
 SELLO MYFRIENDH
 ```
+
+### 使用未知長度的參數
+如果您不知道參數的長度
+
+```python
+def hi(*words):
+    return words
+
+b = hi("a", [636, 888], {"A":1})
+print(len(b))
+print(b, end="\n\n")
+for i in b:
+    print(i)
+```
+```python
+Output:
+3
+('a', [636, 888], {'A': 1})
+
+a
+[636, 888]
+{'A': 1}
+```
+
+```python
+def hi(**words):
+    return words
+
+b = hi(w="a", c=[636, 888], g={"A":1})
+print(b, end="\n\n")
+for i in b.keys():
+    print(i)
+
+for i in b.items():
+    print(i)
+```
+```python
+Output:
+{'w': 'a', 'c': [636, 888], 'g': {'A': 1}}
+
+w
+c
+g
+('w', 'a')
+('c', [636, 888])
+('g', {'A': 1})
+```
