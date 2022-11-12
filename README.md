@@ -249,6 +249,8 @@ Ftp客戶端。
 ### bytes -> bytes 原始數據(只讀r) b'\xe6\x88\x91\xe6\x84\x9b\xe4\xbd\xa0'
 ### bytearray -> bytearray 原始數據陣列(讀寫rw) bytearray(b'\xe6\x88\x91\xe6\x84\x9b\xe4\xbd\xa0')
 ### bool -> boolean 布林值(True or False)
+
+<details><summary>展開示例</summary>
 ```cmd
 >>> a = "text"
 >>> type(a)
@@ -392,6 +394,8 @@ False
 <class 'bool'>
 >>>
 ```
+</details>
+
 ## Python運算子
 ## [https://www.w3schools.com/python/python_operators.asp](https://www.w3schools.com/python/python_operators.asp)
 
@@ -452,8 +456,12 @@ False
 ## Python內建函數
 ### [https://docs.python.org/3/library/functions.html](https://docs.python.org/3/library/functions.html)
 iterable: 可遍歷物件，arg: argument參數。
+
+### 文字Unicode編碼處理
 ### chr(int) ⇨ 將指定字元Unicode編碼轉為文字[Unicode解說 https://www.readfog.com/a/1638084002220969984](https://www.readfog.com/a/1638084002220969984)
 ### ord(str) ⇨ 將指定文字轉為Unicode編碼
+
+<details><summary>展開示例</summary>
 ```cmd
 >>> ord("我")
 25105
@@ -485,6 +493,8 @@ b'\xe6\x88\x91'
 '我'
 >>>
 ```
+</details>
+
 ### str(arg) ⇨ 將變數轉為字符串型態
 ### int(str, int base) ⇨ 將變數轉為整數型態，無條件捨去; 或是將十進位數字轉為其他數字
 ### float(arg) ⇨ 將參數轉為float
@@ -494,6 +504,8 @@ b'\xe6\x88\x91'
 ### bytes(arg) ⇨ 將參數轉為bytes
 ### bytearray(arg) ⇨  將參數轉為bytearray
 ### bool(arg) ⇨ 將參數轉為布林值有值或非為空為True，無值或空的或None為False
+
+<details><summary>展開示例</summary>
 ```cmd
 >>> str(123)
 '123'
@@ -604,6 +616,8 @@ True
 True
 >>>
 ```
+</details>
+
 ### bin(int) ⇨ 將十進位數字轉為二進位
 ### oct(int) ⇨ 將十進位數字轉為八進位
 ### hex(int) ⇨ 將十進位數字轉為十六進位
