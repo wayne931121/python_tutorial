@@ -221,20 +221,25 @@ Ftp客戶端。
 #### class object_name(parent):
 
 ### 如果...做
-#### if flag: //如果flag是True則做...
-####   doSomthing
-#### elif flag1: //又或者如果flag1是True則做...
-####   doSomthing
-#### else:  //又或者則做...
-####   doSomthing
+
+```python
+if flag: #如果flag是True則做...
+  doSomthing
+elif flag1: #又或者如果flag1是True則做...
+  doSomthing
+else:  #又或者則做...
+  doSomthing
+```
 
 ### 嘗試...捕捉錯誤
-#### try
-####   doSomthing
-#### except Exception as e: //將預期到的錯誤視為e
-####   doSomthing
-#### finally:  //到最後，無論如何都要做...
-####   doSomthing
+```python
+try
+  doSomthing
+except Exception as e: #將預期到的錯誤視為e
+  doSomthing
+finally:  #到最後，無論如何都要做...
+  doSomthing
+```
 
 ### 刪除
 #### del variable_name
