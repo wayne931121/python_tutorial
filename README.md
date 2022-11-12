@@ -211,14 +211,24 @@ Ftp客戶端。
 ## Python文法結構
 
 ### 函數
-#### def function_name(*args, **kargs): return value
+
+```python
+def function_name(*args, **kargs): return value
+```
 
 ### 迴圈
-#### for i in iterObject: doSomething
-#### while flag: doSomething
+
+```python
+for i in iterObject: doSomething
+while flag: doSomething
+```
 
 ### 物件
-#### class object_name(parent):
+
+```python
+class object_name(parent):
+    pass
+```
 
 ### 如果...做
 
@@ -232,6 +242,7 @@ else:  #又或者則做...
 ```
 
 ### 嘗試...捕捉錯誤
+
 ```python
 try
   doSomthing
@@ -242,7 +253,10 @@ finally:  #到最後，無論如何都要做...
 ```
 
 ### 刪除
-#### del variable_name
+
+```python
+del variable_name
+```
 
 ## Python資料型態
 ### str -> string 字符串 "文字"
