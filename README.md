@@ -30,7 +30,7 @@ Python官方文檔<br>
 Python官方模組<br>
 [https://docs.python.org/3/library/index.html](https://docs.python.org/3/library/index.html)
 
-想下載和編輯Python可看這裡<br>
+想下載Python和編輯Python檔案可看這裡<br>
 [https://github.com/wayne931121/python_tutorial/blob/main/安裝Python.md](https://github.com/wayne931121/python_tutorial/blob/main/安裝Python.md)
 
 ## 如何學習Python
