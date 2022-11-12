@@ -251,6 +251,7 @@ Ftp客戶端。
 ### bool -> boolean 布林值(True or False)
 
 <details><summary>展開示例</summary>
+
 ```cmd
 >>> a = "text"
 >>> type(a)
@@ -394,6 +395,7 @@ False
 <class 'bool'>
 >>>
 ```
+
 </details>
 
 ## Python運算子
@@ -454,14 +456,18 @@ False
 #### >> ⇨ 將數字轉為2進制並在右邊減少數個位數再轉回數字 10>>2 ⇨ 1010>>2 ⇨ 10 ⇨ 2
 
 ## Python內建函數
+
 ### [https://docs.python.org/3/library/functions.html](https://docs.python.org/3/library/functions.html)
 iterable: 可遍歷物件，arg: argument參數。
 
 ### 文字Unicode編碼處理
+
 ### chr(int) ⇨ 將指定字元Unicode編碼轉為文字[Unicode解說 https://www.readfog.com/a/1638084002220969984](https://www.readfog.com/a/1638084002220969984)
+
 ### ord(str) ⇨ 將指定文字轉為Unicode編碼
 
 <details><summary>展開示例</summary>
+
 ```cmd
 >>> ord("我")
 25105
@@ -493,7 +499,10 @@ b'\xe6\x88\x91'
 '我'
 >>>
 ```
+
 </details>
+
+### 變數型態轉換
 
 ### str(arg) ⇨ 將變數轉為字符串型態
 ### int(str, int base) ⇨ 將變數轉為整數型態，無條件捨去; 或是將十進位數字轉為其他數字
@@ -506,6 +515,7 @@ b'\xe6\x88\x91'
 ### bool(arg) ⇨ 將參數轉為布林值有值或非為空為True，無值或空的或None為False
 
 <details><summary>展開示例</summary>
+
 ```cmd
 >>> str(123)
 '123'
@@ -616,7 +626,10 @@ True
 True
 >>>
 ```
+
 </details>
+
+### 其他
 
 ### bin(int) ⇨ 將十進位數字轉為二進位
 ### oct(int) ⇨ 將十進位數字轉為八進位
