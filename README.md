@@ -219,7 +219,7 @@ Ftp客戶端。
 def function_name(*args, **kargs): return value
 ```
 
-[詳細資料](https://github.com/wayne931121/python_tutorial/blob/main/python%E6%96%87%E6%B3%95%E7%B5%90%E6%A7%8B/function.md)
+[詳細資料](https://github.com/wayne931121/python_tutorial/blob/main/python%20tutorial/python%E6%96%87%E6%B3%95%E7%B5%90%E6%A7%8B/function.md)
 
 
 ### 迴圈
@@ -228,6 +228,8 @@ def function_name(*args, **kargs): return value
 for i in iterObject: doSomething
 while flag: doSomething
 ```
+
+[詳細資料](https://github.com/wayne931121/python_tutorial/blob/main/python%20tutorial/python%E6%96%87%E6%B3%95%E7%B5%90%E6%A7%8B/loop.md)
 
 ### 物件
 
