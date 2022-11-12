@@ -157,6 +157,37 @@ Output:
 8
 9
 ```
+#### continue跳過本次迴圈
+
+```python
+for i in range(5):
+    if i==2: continue
+    print(i)
+```
+```python
+Output:
+0
+1
+3
+4
+```
+
+#### break停止、跳出迴圈
+
+```python
+for i in range(5):
+    print(i)
+    if i==3: break
+```
+```python
+Output:
+0
+1
+2
+3
+```
+
+#### iter
 
 將物件轉換為可遍歷物件`iter(object)`，並且用next呼叫，結束時拋出StopIteration錯誤。(如果您今天處理的是一些其他模組的可遍歷物件，
 並且您不知道如何存取可遍歷物件中的物件僅知道可以使用for迴圈讀取，而您不想使用for迴圈或是想使用分次不連續呼叫即可使用`iter`。)
@@ -192,6 +223,7 @@ G
 G
 B
 ```
+
 ### 遞歸函數
 透過在函數內重新呼叫自身函數形成迴圈，這種方式會比迴圈還慢且更消耗記憶體，但是可能能寫得更淺顯易懂。
 ```python
