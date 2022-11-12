@@ -1,4 +1,4 @@
-# Python中的Loop，迴圈(以及遞歸函數介紹Recursion)
+# Python中的Loop迴圈以及Recursion遞歸函數介紹
 
 ## 使用時機
 連續執行相同程式碼的情況下，就需要使用迴圈。
