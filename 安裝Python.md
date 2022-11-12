@@ -26,8 +26,12 @@ C:\Users\$UserName>
 <hr>
 
 ### 整合執行環境
-#### Jupyter Notebook (推薦)
-ipython<br>
+#### Anaconda + Jupyter Notebook (推薦)
+**Anaconda:**<br>
+可輕鬆建立Python虛擬環境，並且可選擇不同版本。如果想了解其他Python Virtual Environment，可點擊這裡: https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe
+
+**Jupyter Notebook:**<br>
+格式為ipython(.ipynb)<br>
 打碼完按Ctrl+Enter就可執行，而且還能使用文字標題欄增加可讀性，並且能新增複製刪除欄以儲存執行結果和更改前的程式碼達到輕鬆除錯。可將完成的檔案匯出python、html、pdf等多種檔案，並且能自定快速鍵。<br>
 缺點: 在編輯一些視窗化的程式，如要用到sdl2的時候，需要每執行完一遍就restart kernel。(不適合編輯視窗化的程式)
 #### PyCharm
