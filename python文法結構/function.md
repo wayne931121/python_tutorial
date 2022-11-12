@@ -1,7 +1,7 @@
 # Python中的Function，函數、功能
 
 ## 使用時機
-如果你需要執行一個重複的程式碼、重複的函數，你不會希望再打一次那些程式碼，特別是在那些程式碼特別常特別複雜或是需要重複條用多次的情況下。
+如果你需要執行一個重複的程式碼、重複的函數，那麼你不會希望再打一次那些程式碼，特別是在那些程式碼特別常特別複雜或是需要重複條用多次的情況下。
 當然你也可以使用迴圈，但是那是連續執行相同程式碼的情況下，如果是不連續的執行就一定要用函數。
 
 ## 文法
@@ -11,7 +11,12 @@ def function_name(*args, **kargs): return value
 ```
 
 ## 簡單來說
-這是一個簡單的函數
+
+```python
+def 函數名稱(參數): return 回傳值
+```
+
+### 這是一個簡單的函數
 
 ```python
 def function():
@@ -37,7 +42,7 @@ function(10, "AA", "AAA")
 ```
 ```
 Output:
-10 AA AAA
+100 AA AAA
 ```
 
 再一個舉例
@@ -50,4 +55,41 @@ MyFunction(10, 5)
 ```
 Output:
 25
+```
+
+### 參數的預設值
+您可以預設參數的值(非必要參數，不傳值也可以，因為有預設值。)
+
+```python
+def MyFunction(a=10, m=5):
+    print(a*2+m)
+    
+MyFunction()
+MyFunction(20)
+MyFunction(20, 30)
+```
+```
+Output:
+25
+45
+70
+```
+
+非必要參數一定要放在必要參數的後面
+
+```python
+def MyFunction(a, m=5):
+    print(a*2+m)
+```
+```
+Output:
+```
+
+```python
+def MyFunction(m=5, a):
+    print(a*2+m)
+```
+```
+Output:
+SyntaxError: non-default argument follows default argument
 ```
