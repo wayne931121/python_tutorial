@@ -134,6 +134,9 @@ DNS掃描。
 ### JSON編輯
 #### [JSON 內建](https://docs.python.org/3/library/json.html)
 
+### Excel編輯
+#### [OpenPyXl](https://openpyxl.readthedocs.io/)
+
 ### TOML讀取
 #### [TOMLLIB 內建](https://docs.python.org/zh-tw/dev/library/tomllib.html)
 <hr>
