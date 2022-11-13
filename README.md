@@ -95,15 +95,17 @@ Ftp客戶端。
 底層應用，字符串處理。<br>
 國際域名轉換。
 
-<details><summary>其他</summary>
+#### [Aiohttp、Aiodns](https://docs.aiohttp.org/)
+客戶端<br>
+非同步網頁讀取，使用async。
 
-#### [aiohttp、aiodns 非同步網頁讀取，使用async](https://docs.aiohttp.org/)
+#### [Pycares](https://github.com/saghul/pycares)
+客戶端<br>
+DNS掃描。
 
-#### [pycares dns掃描](https://github.com/saghul/pycares)
-
-#### [grequests 非同步網頁讀取，使用gevent](https://github.com/spyoungtech/grequests)
-
-</details>
+#### [Grequests](https://github.com/spyoungtech/grequests)
+客戶端<br>
+非同步網頁讀取，使用gevent。
 
 ### 抓包處理
 #### 將抓到的封包、原始碼進行處理，通常搭配request模組使用。
