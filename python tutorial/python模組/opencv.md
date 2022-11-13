@@ -18,7 +18,7 @@ pip install opencv-python
 
 ## 使用
 
-讀寫圖片:
+### 讀寫圖片:
 
 ```python
 import cv2
@@ -93,7 +93,7 @@ mode: #2就是to的意思，音一樣。
     cv2.COLOR_GRAY2RGB
 ```
 
-讀寫影片:
+### 讀寫影片:
 
 ```python
 import cv2
