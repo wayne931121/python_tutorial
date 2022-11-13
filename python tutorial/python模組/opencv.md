@@ -29,6 +29,8 @@ cv2.waitkey(0) #等待圖片視窗結束(0表示持續等待，直到使用者�
 cv2.imwrite(filename, img) #匯出圖片
 ```
 
+cv2.imread(image_path, mode)
+
 ```python
 cv2.imread(image_path, mode)
 
