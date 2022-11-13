@@ -90,6 +90,7 @@ mode: #2就是to的意思，音一樣。
 
 ```python
 import cv2
+
 cap = cv2.VideoCapture('video_path')              # 讀取影片。
 fourcc = cv2.VideoWriter_fourcc(*'MP4V')          # 影片的格式mp4
 out = cv2.VideoWriter('output_1.mp4', fourcc, 20.0, (1920,  1080))  # 創建新影片，FPS為20, 尺寸為 640x360
