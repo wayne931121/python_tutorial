@@ -20,9 +20,6 @@ C:\Users\$UserName>
 ```
 ## Python可用來開發Python的工具
 
-### 推薦
-#### Anaconda + Jupyter Notebook + Notepad++
-
 ### 程式碼編輯器(文字編輯器)
 #### Notepad++
 #### Notepad Windows內建
@@ -39,3 +36,7 @@ C:\Users\$UserName>
 適合很常使用Python的人，能輕鬆編輯運作Python。不適合會很常使用多程式語言而Python並沒有占他們程式語言很重要一部分的人。
 #### Vscode
 適合使用多程式語言且用Windows的人，能輕鬆編輯運作Python，但是自動拼字很煩人記得關。(自動拼字: 自動提示、auto-completion)。
+
+
+### 推薦
+#### Anaconda + Jupyter Notebook + Notepad++
