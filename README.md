@@ -136,7 +136,6 @@ DNS掃描。
 
 ### Excel編輯
 #### [OpenPyXl](https://openpyxl.readthedocs.io/)
-#### [OpenPyXl](https://openpyxl.readthedocs.io/)
 
 ### WAV編輯
 #### [Wave(.wav) 內建](https://docs.python.org/3/library/wave.html)
