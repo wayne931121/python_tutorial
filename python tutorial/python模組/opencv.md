@@ -18,6 +18,8 @@ pip install opencv-python
 
 ## 使用
 
+讀寫圖片:
+
 ```python
 import cv2
 
@@ -27,23 +29,80 @@ cv2.waitkey(0) #等待圖片視窗結束
 cv2.imwrite(filename, img) #匯出圖片
 ```
 
-`cv2.rotate(img_np, mode)`旋轉圖片
+旋轉圖片
 
 ```
+cv2.rotate(img_np, mode)
+
 mode:
     cv2.ROTATE_90_CLOCKWISE 順時針旋轉90度
     cv2.ROTATE_90_COUNTERCLOCKWISE 逆時針旋轉90度
     cv2.ROTATE_180 180度旋轉
 ```
 
-`cv2.flip(img_np, mode)`翻轉圖片
+翻轉圖片
+
 ```
+cv2.flip(img_np, mode)
+
 mode:
     0 垂直翻轉
     1 水平翻轉
    -1 上下左右顛倒
 ```
 
-`cv2.transpose(img_np)`逆時針旋轉90度圖片
+逆時針旋轉90度圖片
 
-`cv2.resize(img_np, (width, height))`設定圖片大小
+```
+cv2.transpose(img_np)
+```
+
+設定圖片大小
+
+```
+cv2.resize(img_np, (width, height))
+```
+
+轉換圖片色彩通道
+
+```
+cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+```
+
+讀寫影片:
+
+```python
+import cv2
+cap = cv2.VideoCapture('video_path')              # 讀取影片。
+fourcc = cv2.VideoWriter_fourcc(*'MP4V')          # 影片的格式mp4
+out = cv2.VideoWriter('output_1.mp4', fourcc, 20.0, (1920,  1080))  # 創建新影片，FPS為20, 尺寸為 640x360
+while True:
+    ret, frame = cap.read()
+    if not ret:
+        break
+    out.write(img_2)                       # 將這幀圖片寫入新影片
+    cv2.imshow('Title', frame)
+    if cv2.waitKey(1) == ord('q'):
+        break                              # 按下 q 鍵停止
+
+# 釋放所有資源
+cap.release()
+out.release()
+cv2.destroyAllWindows()
+```
+
+cv2.VideoCapture(video)用法:
+
+```python
+cv2.VideoCapture('video_path') 從影片路徑讀取影片
+cv2.VideoCapture('url') 從網路串流讀取影片
+cv2.VideoCapture(0) 從畚箕電腦攝影鏡頭讀取影片
+```
+
+設定影像尺寸:
+
+```python
+cap = cv2.VideoCapture(video)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 960)
+```
