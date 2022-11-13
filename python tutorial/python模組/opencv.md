@@ -74,6 +74,13 @@ cv2.transpose(img_np)
 cv2.resize(img_np, (width, height))
 ```
 
+裁剪圖片(np array分割操作)
+
+```python
+img_np = cv2.imread(image_path)
+img = img_np[y:y+h, x:x+w] #x,y是座標，基準點是圖片左上角，w,h: width, height。
+```
+
 轉換圖片色彩通道
 
 ```python
