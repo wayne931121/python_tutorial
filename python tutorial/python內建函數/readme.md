@@ -1,1 +1,1 @@
-Python文法結構
+Python內建函數
