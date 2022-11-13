@@ -156,7 +156,6 @@ DNS掃描。
 #### [Jina (雲端人工智慧)](https://docs.jina.ai/)
 #### H5檔案讀取
 ##### [H5PY](https://docs.h5py.org/)
-<hr>
 
 ### 陣列、數學與矩陣運算
 #### [Math 內建](https://docs.python.org/3/library/math.html)
@@ -173,6 +172,7 @@ DNS掃描。
 ### 人類語言分析(自然語言處理，人工智慧的分支，[維基百科介紹](https://zh.wikipedia.org/zh-tw/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86))
 #### [NLTK](https://www.nltk.org/)
 #### [JieBa (中文斷句處理)](https://github.com/fxsjy/jieba)
+<hr>
 
 ### 時間
 #### [Time 內建(取得當前時間、計算時間差、程式休息幾秒鐘。)](https://docs.python.org/3/library/time.html)
