@@ -79,9 +79,29 @@ Ftp客戶端。
 伺服器端<br>
 網頁伺服器，開伺服器等待用戶連接並做出相應行動。
 
+#### [Django](https://www.djangoproject.com/)
+伺服器端<br>
+網頁伺服器，伺服器框架，開伺服器等待用戶連接並做出相應行動。
+
+#### [Jinja](https://github.com/pallets/jinja/)
+伺服器端<br>
+網頁伺服器，伺服器框架，開伺服器等待用戶連接並做出相應行動。
+
 #### [Scapy](https://scapy.net/)
 實用工具<br>
 嗅探工具、封包收發測試、網路攻擊工具、偽裝IP工具、網域測試。
+
+#### [IDNa](https://github.com/kjd/idna)
+底層應用，字符串處理。<br>
+國際域名轉換。
+
+<details><summary>其他</summary>
+
+[aiohttp、aiodns 非同步網頁讀取，使用async](https://docs.aiohttp.org/)
+[pycares dns掃描](https://github.com/saghul/pycares)
+[grequests 非同步網頁讀取，使用gevent](https://github.com/spyoungtech/grequests)
+
+</details>
 
 ### 抓包處理
 #### 將抓到的封包、原始碼進行處理，通常搭配request模組使用。
@@ -114,12 +134,15 @@ Ftp客戶端。
 #### [TOMLLIB 內建](https://docs.python.org/zh-tw/dev/library/tomllib.html)
 <hr>
 
-### 人工智慧、大數據分析
+### 人工智慧、大數據分析、機器學習
 #### [Tensorflow](https://www.tensorflow.org/)
 #### [Pytorch](https://pytorch.org/)
 #### [Scikit-Learn](https://scikit-learn.org/)
 #### [Keras](https://keras.io/)
 #### [MediaPipe (人臉辨識)](https://google.github.io/mediapipe/getting_started/python.html)
+#### [XGboost](https://xgboost.readthedocs.io/)
+#### [PyCaret (機器學習)](https://pycaret.org/)
+#### [Jina (雲端人工智慧)](https://docs.jina.ai/)
 #### H5檔案讀取
 ##### [H5PY](https://docs.h5py.org/)
 <hr>
@@ -154,26 +177,57 @@ Ftp客戶端。
 #### [tempfile 內建(暫存檔案)](https://docs.python.org/3/library/tempfile.html)
 #### [pathlib 內建(檔案系統路徑處理)](https://docs.python.org/3/library/pathlib.html)
 #### [gc 內建(清理運行中不必要的記憶體)](https://docs.python.org/3/library/gc.html)
+#### [traceback 內建(在try except的except中追蹤錯誤的來源行數)](https://docs.python.org/3/library/traceback.html)
+#### [functools 內建(高階函數和裝飾器用法)](https://docs.python.org/3/library/functools.html)
 
 ### 進程、線程
 #### [threading 內建(多線程)](https://docs.python.org/3/library/threading.html)
 #### [multiprocessing 內建(多進程)](https://docs.python.org/3/library/multiprocessing.html)
 #### [concurrent.futures 內建(高階異步線程進程控制接口)](https://docs.python.org/3/library/concurrent.futures.html)
 
+### Async、Coroutine
+#### [asyncio 內建(非同步io處理)](https://docs.python.org/3/library/asyncio.html)
+#### [gevent (Coroutine)](https://github.com/gevent/gevent)
+
 ### 壓縮編碼解碼
 #### [zipfile 內建(zip)](https://docs.python.org/3/library/zipfile.html)
 #### [tarfile 內建(tar)](https://docs.python.org/3/library/tarfile.html)
-#### [zlib 內建(gzip、deflate)](https://docs.python.org/3/library/zlib.html)
-#### [gzip 內建](https://docs.python.org/3/library/gzip.html)
-#### [brotli (br)](https://python-hyper.org/projects/brotlipy/en/latest/)
+#### [zlib 內建(gzip、deflate)，網路資料壓縮格式](https://docs.python.org/3/library/zlib.html)
+#### [gzip 內建，網路資料壓縮格式](https://docs.python.org/3/library/gzip.html)
+#### [brotli (br)，網路資料壓縮格式](https://python-hyper.org/projects/brotlipy/en/latest/)
 #### [lzma 內建(lzma)](https://docs.python.org/3/library/lzma.html)
 #### [bz2 內建(bz2)](https://docs.python.org/3/library/bz2.html)
+
+### 字元編碼識別
+#### [chardet](https://github.com/chardet/chardet)
+#### [cchardet](https://github.com/PyYoshi/cChardet)
+#### [uchardet(C語言)](https://github.com/freedesktop/uchardet)
 
 ### C函數使用
 #### [ctypes 內建](https://docs.python.org/3/library/ctypes.html)
 
+### Python變數儲存
+#### [pickle(.pkl) 內建](https://docs.python.org/3/library/pickle.html)
+
+### 加密解密
+#### [Itsdangerous](https://itsdangerous.palletsprojects.com/)
+#### [pyOpenSSL](https://www.pyopenssl.org/)
+#### [RSA](https://stuvel.eu/python-rsa-doc/)
+#### [PyCrypto](https://www.pycrypto.org/)
+#### [Cryptography](https://cryptography.io/)
+#### [PyCryptodome](https://www.pycryptodome.org/)
+
+### 快取工具
+#### [cachetools](https://github.com/tkem/cachetools)
+
 ### MIMETYPE處理
 #### [mimetypes 內建](https://docs.python.org/3/library/mimetypes.html)
+
+### Google Api
+#### [google-api-core](https://github.com/googleapis/python-api-core)
+
+### 更輕鬆地寫出class
+#### [attrs](https://www.attrs.org/)
 
 ### 顏色轉換(例如 rgb to hsl)
 #### [colorsys 內建](https://docs.python.org/3/library/colorsys.html)
