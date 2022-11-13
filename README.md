@@ -43,6 +43,9 @@ Python官方模組<br>
 ## Python能做什麼?
 Python有很多別人寫好的模組和強大的內建模組，可以做很多事，有些模組跑很快因為他用C寫，在Python內運作。
 
+Python可以用PyScript在瀏覽器內運作，詳情見此:<br>
+https://pyscript.net/
+
 ## Python實用模組及功能
 
 ### 網路:
