@@ -45,7 +45,7 @@ Python有很多別人寫好的模組和強大的內建模組，可以做很多�
 
 Python能輕鬆開發應用程式、網路伺服器、客戶端; 訓練人工智慧、機器學習、數據分析; 編輯圖片、影片和其他檔案。
 
-Python可以用PyScript在瀏覽器內運作，詳情見此:<br>
+Python可以用PyScript在瀏覽器內運作，詳情見此(不可使用網路伺服器及客戶端，缺少_ssl):<br>
 https://pyscript.net/
 
 ## Python實用模組及功能
