@@ -8,7 +8,7 @@ https://github.com/opencv
 https://docs.opencv.org/5.x/index.html
 
 ## 簡介
-相片編輯(0~255)、影片編輯、網路串流讀取、擴增實境、臉部辨識、手勢辨識、動作辨識、運動跟蹤、物體辨識、圖像分割。
+相片編輯(預設為BGR 0~255)、影片編輯、網路串流讀取、擴增實境、臉部辨識、手勢辨識、動作辨識、運動跟蹤、物體辨識、圖像分割。
 
 ## 下載
 
@@ -25,13 +25,22 @@ import cv2
 
 img = cv2.imread(image_path) #讀取圖片
 cv2.imshow(img) #顯示圖片
-cv2.waitkey(0) #等待圖片視窗結束
+cv2.waitkey(0) #等待圖片視窗結束(0表示持續等待，直到使用者按下按鍵為止)
 cv2.imwrite(filename, img) #匯出圖片
+```
+
+```python
+cv2.imread(image_path, mode)
+
+mode:
+    cv2.IMREAD_UNCHANGED 原始讀取保留透明度
+    cv2.IMREAD_COLOR 預設值
+    cv2.IMREAD_GRAYSCALE 灰階讀取
 ```
 
 旋轉圖片
 
-```
+```python
 cv2.rotate(img_np, mode)
 
 mode:
@@ -42,7 +51,7 @@ mode:
 
 翻轉圖片
 
-```
+```python
 cv2.flip(img_np, mode)
 
 mode:
@@ -53,20 +62,26 @@ mode:
 
 逆時針旋轉90度圖片
 
-```
+```python
 cv2.transpose(img_np)
 ```
 
 設定圖片大小
 
-```
+```python
 cv2.resize(img_np, (width, height))
 ```
 
 轉換圖片色彩通道
 
-```
-cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+```python
+cv2.cvtColor(frame, mode)
+
+mode: #2就是to的意思，音一樣。
+    cv2.COLOR_BGR2GRAY
+    cv2.COLOR_GRAY2BGR
+    cv2.COLOR_RGB2GRAY
+    cv2.COLOR_GRAY2RGB
 ```
 
 讀寫影片:
@@ -99,10 +114,22 @@ cv2.VideoCapture('url') 從網路串流讀取影片
 cv2.VideoCapture(0) 從畚箕電腦攝影鏡頭讀取影片
 ```
 
+查看影像資訊:
+
+```python
+cap = cv2.VideoCapture(video)
+cap.get(cv2.CAP_PROP_FRAME_WIDTH)
+cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
+cap.get(cv2.CAP_PROP_FPS)
+cap.get(cv2.CAP_PROP_FOURCC)
+cap.get(cv2.CAP_PROP_FRAME_COUNT) #總幀數
+cap.get(cv2.CAP_PROP_POS_MSEC) #影片目前時間位置(以毫秒為單位)
+```
+
 設定影像尺寸:
 
 ```python
 cap = cv2.VideoCapture(video)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
-cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 960)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 ```
