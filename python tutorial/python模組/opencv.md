@@ -74,7 +74,7 @@ cv2.transpose(img_np)
 cv2.resize(img_np, (width, height))
 ```
 
-裁剪圖片(np array分割操作)
+裁剪圖片(np.array分割操作)
 
 ```python
 img_np = cv2.imread(image_path)
