@@ -20,7 +20,8 @@
 [Python內建函數](#Python內建函數)
 
 # Python是什麼?
-Python是個高階語言，使用直譯器。Python的優勢是簡單明瞭能輕鬆開發APP，劣勢是執行速度過慢。(直譯器是邊翻譯邊執行，如Javascript語言; 編譯器是編譯完後再執行，如C語言)<br>
+Python是個高階語言，使用直譯器。Python的優勢是簡單明瞭能輕鬆開發APP，劣勢是執行速度過慢。(直譯器是邊翻譯邊執行，如Javascript語言; 編譯器是編譯完後再執行，如C語言)
+
 Python官方網站，含下載、文檔、關於頁面:<br>
 [https://www.python.org/](https://www.python.org/)
 
