@@ -29,7 +29,7 @@ cv2.waitkey(0) #等待圖片視窗結束(0表示持續等待，直到使用者�
 cv2.imwrite(filename, img) #匯出圖片
 ```
 
-cv2.imread(image_path, mode)
+讀取圖片
 
 ```python
 cv2.imread(image_path, mode)
@@ -77,7 +77,7 @@ cv2.resize(img_np, (width, height))
 轉換圖片色彩通道
 
 ```python
-cv2.cvtColor(frame, mode)
+cv2.cvtColor(img_np, mode)
 
 mode: #2就是to的意思，音一樣。
     cv2.COLOR_BGR2GRAY
@@ -97,7 +97,7 @@ while True:
     ret, frame = cap.read()
     if not ret:
         break
-    out.write(img_2)                       # 將這幀圖片寫入新影片
+    out.write(frame)                       # 將這幀圖片寫入新影片
     cv2.imshow('Title', frame)
     if cv2.waitKey(1) == ord('q'):
         break                              # 按下 q 鍵停止
