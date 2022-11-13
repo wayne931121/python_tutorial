@@ -20,8 +20,7 @@
 [Python內建函數](#Python內建函數)
 
 # Python是什麼?
-Python是個高階語言，使用直譯器。Python的優勢是簡單明瞭能輕鬆開發APP，劣勢是執行速度過慢。(直譯器是邊翻譯邊執行，如Javascript語言; 編譯器是編譯完後再執行，如C語言)
-
+Python是個高階語言，使用直譯器。Python的優勢是簡單明瞭能輕鬆開發APP，劣勢是執行速度過慢。(直譯器是邊翻譯邊執行，如Javascript語言; 編譯器是編譯完後再執行，如C語言。)<br>
 Python官方網站，含下載、文檔、關於頁面:<br>
 [https://www.python.org/](https://www.python.org/)
 
@@ -44,7 +43,7 @@ Python官方模組<br>
 ## Python能做什麼?
 Python有很多別人寫好的模組和強大的內建模組，可以做很多事，有些模組跑很快因為他用C寫，在Python內運作。
 
-Python能輕鬆開發應用程式、網路伺服器、客戶端; 訓練人工智慧、機器學習、數據分析; 編輯圖片及影片和其他檔案。
+Python能輕鬆開發應用程式、網路伺服器、客戶端; 訓練人工智慧、機器學習、數據分析; 編輯圖片、影片和其他檔案。
 
 Python可以用PyScript在瀏覽器內運作，詳情見此:<br>
 https://pyscript.net/
