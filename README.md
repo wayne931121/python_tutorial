@@ -167,7 +167,7 @@ DNS掃描。
 
 ### 資料分析
 #### [Pandas](https://pandas.pydata.org/)
-#### [Pandas支援格式: csv, excel, xml...](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html)<hr>
+#### [Pandas支援格式: csv, excel, xml...](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html)
 
 ### 人類語言分析(自然語言處理，人工智慧的分支，[維基百科介紹](https://zh.wikipedia.org/zh-tw/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86))
 #### [NLTK](https://www.nltk.org/)
