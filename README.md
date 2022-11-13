@@ -153,6 +153,7 @@ Ftp客戶端。
 #### [logging 內建(日誌設定)](https://docs.python.org/3/library/logging.html)
 #### [tempfile 內建(暫存檔案)](https://docs.python.org/3/library/tempfile.html)
 #### [pathlib 內建(檔案系統路徑處理)](https://docs.python.org/3/library/pathlib.html)
+#### [gc 內建(清理運行中不必要的記憶體)](https://docs.python.org/3/library/gc.html)
 
 ### 進程、線程
 #### [threading 內建(多線程)](https://docs.python.org/3/library/threading.html)
