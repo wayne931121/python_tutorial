@@ -124,7 +124,7 @@ DNS掃描。
 #### [Eyed3](https://eyed3.readthedocs.io/en/latest/eyed3.html)
 
 ### 照片、影片編輯，串流讀取
-#### [OpenCV](https://www.google.com/search?q=opencv+python)
+#### [OpenCV[站內教學]](https://github.com/wayne931121/python_tutorial/blob/main/python%20tutorial/python%E6%A8%A1%E7%B5%84/opencv.md)
 #### [Pillow](https://pillow.readthedocs.io/)
 #### [Moviepy](https://zulko.github.io/moviepy/)
 
@@ -136,9 +136,14 @@ DNS掃描。
 
 ### Excel編輯
 #### [OpenPyXl](https://openpyxl.readthedocs.io/)
+#### [OpenPyXl](https://openpyxl.readthedocs.io/)
+
+### WAV編輯
+#### [Wave(.wav) 內建](https://docs.python.org/3/library/wave.html)
+#### [PyAudio](https://pypi.org/project/PyAudio/)
 
 ### TOML讀取
-#### [TOMLLIB 內建](https://docs.python.org/zh-tw/dev/library/tomllib.html)
+#### [TOMLLIB 內建](https://docs.python.org/3/library/tomllib.html)
 <hr>
 
 ### 人工智慧、大數據分析、機器學習
@@ -165,6 +170,10 @@ DNS掃描。
 ### 資料分析
 #### [Pandas](https://pandas.pydata.org/)
 #### [Pandas支援格式: csv, excel, xml...](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html)<hr>
+
+### 人類語言分析(自然語言處理，人工智慧的分支，[維基百科介紹](https://zh.wikipedia.org/zh-tw/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86))
+#### [NLTK](https://www.nltk.org/)
+#### [JieBa (中文斷句處理)](https://github.com/fxsjy/jieba)
 
 ### 時間
 #### [Time 內建(取得當前時間、計算時間差、程式休息幾秒鐘。)](https://docs.python.org/3/library/time.html)
