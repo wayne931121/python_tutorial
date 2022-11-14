@@ -40,6 +40,9 @@ Python官方模組<br>
 到Python官方文檔教學頁面學習入門文法(左上角能調整語言)<br>
 [https://docs.python.org/3/tutorial/index.html](https://docs.python.org/3/tutorial/index.html)
 
+未安裝Python的裝置可在Google Colab服務中運作、展示、學習<br>
+[https://colab.research.google.com/](https://colab.research.google.com/)
+
 ## Python能做什麼?
 Python有很多別人寫好的模組和強大的內建模組，可以做很多事，有些模組跑很快因為他用C寫，在Python內運作。
 
