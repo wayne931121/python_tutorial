@@ -173,3 +173,13 @@ def wise(a):
 a = wise(a)
 print(a)
 ```
+
+直接對顏色進行矩陣運算
+```python
+image = cv2.imread("your.jpg")
+
+#                       B G R   B  G   R
+new_image = wise(image*[2,2,1]+[1,100,-2]).astype("uint8")
+cv2.imshow('image',new_image)
+cv2.waitKey(0)
+```
