@@ -7,6 +7,9 @@ https://github.com/opencv
 
 https://docs.opencv.org/5.x/index.html
 
+## 官方High-level GUI模組文檔
+https://docs.opencv.org/4.x/d7/dfc/group__highgui.html
+
 ## 簡介
 相片編輯(預設為BGR 0~255)、影片編輯、網路串流讀取、擴增實境、臉部辨識、手勢辨識、動作辨識、運動跟蹤、物體辨識、圖像分割。
 
@@ -25,7 +28,7 @@ import cv2
 
 img = cv2.imread(image_path) #讀取圖片
 cv2.imshow("window", img.astype(dtype="uint8")) #顯示圖片
-cv2.waitkey(0) #等待圖片視窗結束(0表示持續等待，直到使用者按下按鍵為止)
+cv2.waitkey(0) #等待圖片視窗結束(0表示持續等待，直到使用者按下按鍵為止。非零表示等待毫秒數，函數回傳使用者從鍵盤按下的KeyCode，-1表示使用者沒按，27表示esc，ord("q")->113表示q鍵)
 cv2.imwrite(filename, img) #匯出圖片
 ```
 
@@ -181,4 +184,26 @@ image = cv2.imread("your.jpg")
 new_image = wise(image*[2,2,1]+[1,100,-2]).astype("uint8")
 cv2.imshow('image',new_image)
 cv2.waitKey(0)
+```
+範例
+```python
+import cv2
+import random
+
+def wise(a):
+    a = ((a>255)*255)+(a*(a<=255))
+    a = a*(a>=0)
+    return a
+
+image = cv2.imread("u1.jpg")
+f1 = lambda:random.randint(0,20)/10
+f2 = lambda:random.randint(-255,255)
+
+while True:
+    cv2.namedWindow("video",flags=cv2.WINDOW_NORMAL)
+    frame = wise(image*[f1(),f1(),f1()]+[f2(),f2(),f2()]).astype("uint8")
+    cv2.imshow('video', frame)
+    if cv2.waitKey(100) in [27,ord('q')]: #esc key or q key
+        break
+cv2.destroyAllWindows()
 ```
