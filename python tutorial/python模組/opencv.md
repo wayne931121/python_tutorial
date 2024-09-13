@@ -144,3 +144,17 @@ cap = cv2.VideoCapture(video)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 ```
+
+色彩分離和整合
+```python
+import cv2
+import numpy as np
+
+image = cv2.imread("u1.jpg")
+r = image[:,:,2:3]
+g = image[:,:,1:2]
+b = image[:,:,0:1]
+new_image = np.concat((b,g,r),axis=2).astype(dtype="uint8")
+cv2.imshow('image',new_image)
+cv2.waitKey(0)
+```
