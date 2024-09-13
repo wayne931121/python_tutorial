@@ -145,7 +145,7 @@ cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 ```
 
-色彩分離和整合
+色彩分離和整合:
 ```python
 import cv2
 import numpy as np
