@@ -24,7 +24,7 @@ pip install opencv-python
 import cv2
 
 img = cv2.imread(image_path) #讀取圖片
-cv2.imshow(img) #顯示圖片
+cv2.imshow("window", img.astype(dtype="uint8")) #顯示圖片
 cv2.waitkey(0) #等待圖片視窗結束(0表示持續等待，直到使用者按下按鍵為止)
 cv2.imwrite(filename, img) #匯出圖片
 ```
