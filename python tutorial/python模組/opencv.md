@@ -168,7 +168,8 @@ fn1 = lambda a:a*(a>=0)
 def wise(a):
     a = f255(a)
     a = fn1(a)
+    return a
 
-wise(a)
+a = wise(a)
 print(a)
 ```
