@@ -165,8 +165,10 @@ a = np.array([255,356,10,-1,0,30])
 f255 = lambda a:((a>255)*255)+(a*(a<=255))
 fn1 = lambda a:a*(a>=0)
 
-a = f255(a)
-a = fn1(a)
+def wise(a):
+    a = f255(a)
+    a = fn1(a)
 
+wise(a)
 print(a)
 ```
