@@ -185,7 +185,7 @@ new_image = wise(image*[2,2,1]+[1,100,-2]).astype("uint8")
 cv2.imshow('image',new_image)
 cv2.waitKey(0)
 ```
-播放相片隨機顏色變換範例
+相片隨機變換顏色播放範例
 ```python
 import cv2
 import random
