@@ -158,3 +158,15 @@ new_image = np.concat((b,g,r),axis=2).astype(dtype="uint8")
 cv2.imshow('image',new_image)
 cv2.waitKey(0)
 ```
+去除負數和大於255的值，使其只在0到255間，使大於255的值等於255，小於0的數字歸零:
+```python
+a = np.array([255,356,10,-1,0,30])
+
+f255 = lambda a:((a>255)*255)+(a*(a<=255))
+fn1 = lambda a:a*(a>=0)
+
+a = f255(a)
+a = fn1(a)
+
+print(a)
+```
