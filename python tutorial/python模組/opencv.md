@@ -185,20 +185,17 @@ new_image = wise(image*[2,2,1]+[1,100,-2]).astype("uint8")
 cv2.imshow('image',new_image)
 cv2.waitKey(0)
 ```
-範例
+播放相片隨機顏色變換範例
 ```python
 import cv2
 import random
-
 def wise(a):
     a = ((a>255)*255)+(a*(a<=255))
     a = a*(a>=0)
     return a
-
-image = cv2.imread("u1.jpg")
+image = cv2.imread("your_image.jpg")
 f1 = lambda:random.randint(0,20)/10
 f2 = lambda:random.randint(-255,255)
-
 while True:
     cv2.namedWindow("video",flags=cv2.WINDOW_NORMAL)
     frame = wise(image*[f1(),f1(),f1()]+[f2(),f2(),f2()]).astype("uint8")
