@@ -8,10 +8,20 @@ print(dir(a))
 #### search
 使用python在資料中尋找含有特定文字的資料
 ```python
+def UL(w): #不分大小寫
+    word = [""]
+    for e in w:
+        for i in range(len(word)):
+            word.append(word[i]+e.lower())
+            word.append(word[i]+e.upper())
+    return word[-(2**len(w)):]
+print(UL("RT"))
+
 def search(word,List):
+    word = UL(word)
     for token in List:
-        if (word in token) or (word.lower() in token) or (word.upper() in token):
-            print(token)
+        for keyWord in word:
+            if keyWord in token: print(token)
 
 a = "Hi"
 search("la",dir(a))
