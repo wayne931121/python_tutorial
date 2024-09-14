@@ -9,6 +9,8 @@ print(dir(a))
 使用python在資料中尋找含有特定文字的資料
 ```python
 def UL(w): #不分大小寫
+    if len(w)>11:
+        print("Warning your key word is too big, will take long time to process, you can try to split it to small word and resent")
     word = [""]
     for e in w:
         for i in range(len(word)):
