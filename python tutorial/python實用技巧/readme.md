@@ -15,15 +15,22 @@ def UL(w): #不分大小寫
             word.append(word[i]+e.lower())
             word.append(word[i]+e.upper())
     return word[-(2**len(w)):]
-print(UL("RT"))
 
-def search(word,List):
-    word = UL(word)
+def search(*words,List=[],mode="and"):
+    words = [UL(i) for i in words]
     for token in List:
-        for keyWord in word:
-            if keyWord in token: print(token)
+        flag = 0
+        for word in words: #從所有關鍵字尋找
+            for keyWord in word: #關鍵字不分大小寫
+                if keyWord in token: 
+                    flag+=1 #找到
+                    break
+        if mode=="and" and flag==len(words): #全部找到
+            print(token)
+        elif mode=="or" and flag>0: #有找到
+            print(token)
 
-a = "Hi"
-search("la",dir(a))
-search("ball",["air","air ball","ball"])
+a = "1"
+search("la",mode="or",List=dir(a))
+search("bal","k",mode="or",List=["air","air ball","ball"])
 ```
