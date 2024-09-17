@@ -51,7 +51,7 @@ result = scan("你們好啊")
 print(result)
 ```
 
-### 將附近相關且重複的資料刪除，只取左右不重複的資料(List)
+### 將附近相關且重複的資料刪除，只取左右不重複的資料(List:str)
 ```python
 def reduce(a):
     b = []
