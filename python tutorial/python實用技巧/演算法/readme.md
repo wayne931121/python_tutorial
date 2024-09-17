@@ -133,3 +133,16 @@ def Probability(p=[1,2,7],l=[1,2,3]):
 
 print(Probability([1,1,3],["t","q","y"]))
 ```
+
+### 隨機數
+##### https://github.com/wayne931121/random/blob/main/randint.py
+```python
+import time
+
+def random(start,end,dpv=1): #end>start, dpv!=0
+    cal = end-start+1
+    result = start+round(time.time()*cal*dpv)%cal
+    return result
+
+print(random(0,10))
+```
