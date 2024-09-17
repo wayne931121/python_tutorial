@@ -52,7 +52,7 @@ print(result)
 ```
 
 ### 將附近相關且重複的資料刪除，只取左右不重複的資料(List)
-```
+```python
 def reduce(a):
     b = []
     for i,c in enumerate(a):
@@ -62,9 +62,6 @@ def reduce(a):
         if not i==len(a)-1: right=a[i+1]
         if not (c in left or c in right): b.append(c)
     return b
-
-result = reduce(["1","123","2","23","3"])
-print(result)
 
 result = reduce(["1","123","2","23","3","1","123","2","23","3"])
 print(result)
