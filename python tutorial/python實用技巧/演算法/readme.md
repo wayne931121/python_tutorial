@@ -89,7 +89,7 @@ def rl(s,e,l):
 print(rl(0,5,5))
 ```
 
-### 藉由給定的物件和機率百分比精度回傳最終得到的物件
+### 藉由給定的物件和機率百分比精度回傳最終得到的物件(List:0<=float<=1,List,int)
 ```python
 from random import randint
 
@@ -112,7 +112,7 @@ def Probability(p=[0.1,0.2,0.7],l=[1,2,3],preci=2):
 print(Probability(p=[0.05,0.05,0.90],l=["a","k","r"],preci=2))
 ```
 
-### 藉由給定的物件和機率權重回傳最終得到的物件
+### 藉由給定的物件和機率權重回傳最終得到的物件(List:int,List)
 ```python
 from random import randint
 
