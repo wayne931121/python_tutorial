@@ -134,7 +134,7 @@ def Probability(p=[1,2,7],l=[1,2,3]):
 print(Probability([1,1,3],["t","q","y"]))
 ```
 
-### 隨機數
+### 隨機數 (精確度取決於系統)
 ##### https://github.com/wayne931121/random/blob/main/randint.py
 ```python
 import time
