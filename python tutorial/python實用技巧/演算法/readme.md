@@ -65,4 +65,7 @@ def reduce(a):
 
 result = reduce(["1","123","2","23","3"])
 print(result)
+
+result = reduce(["1","123","2","23","3","1","123","2","23","3"])
+print(result)
 ```
