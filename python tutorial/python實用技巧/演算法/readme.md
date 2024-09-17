@@ -37,7 +37,7 @@ result = norepeat(["k","lion","b","lemon","lion","m","lemon"])
 print(result)
 ```
 
-### 將文字句子按照順序和相連拆解成所有可能
+### 將文字句子按照順序和相連拆解成所有可能(str,int)
 ```python
 def scan(word,maxLength=None):
     result = []
@@ -48,5 +48,21 @@ def scan(word,maxLength=None):
     return result
 
 result = scan("你們好啊")
+print(result)
+```
+
+### 將附近相關且重複的資料刪除，只取左右不重複的資料(List)
+```
+def reduce(a):
+    b = []
+    for i,c in enumerate(a):
+        left = ""
+        right = ""
+        if not i==0: left=a[i-1]
+        if not i==len(a)-1: right=a[i+1]
+        if not (c in left or c in right): b.append(c)
+    return b
+
+result = reduce(["1","123","2","23","3"])
 print(result)
 ```
