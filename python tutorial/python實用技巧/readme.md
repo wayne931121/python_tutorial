@@ -14,6 +14,7 @@ print(1,2,3,sep="Hello",end="")
 ```
 
 #### Flash Print
+```"\r"```是回車符，讓游標能回到當前這一行的起點，從而實現不換行，同一行一直刷新的效果。
 ```python
 import time
 print("\r",1,sep="",end="")
