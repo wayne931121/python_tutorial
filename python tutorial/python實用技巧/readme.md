@@ -6,7 +6,7 @@ print(dir(a))
 ```
 
 #### search
-使用python在資料中尋找含有特定文字的資料
+##### 使用python在資料中尋找含有特定文字的資料
 ```python
 def UL(w): #不分大小寫
     if len(w)>11:
@@ -18,8 +18,9 @@ def UL(w): #不分大小寫
             word.append(word[i]+e.upper())
     return word[-(2**len(w)):]
 
-def search(*words,List=[],mode="and"):
+def search(*words,List=[],mode="and",limit=10**10):
     words = [UL(i) for i in words]
+    result = []
     for token in List:
         flag = 0
         for word in words: #從所有關鍵字尋找
@@ -27,12 +28,27 @@ def search(*words,List=[],mode="and"):
                 if keyWord in token: 
                     flag+=1 #找到
                     break
-        if mode=="and" and flag==len(words): #全部找到
-            print(token)
-        elif mode=="or" and flag>0: #有找到
-            print(token)
+        if len(token)<limit:
+            if mode=="and" and flag==len(words): #全部找到
+                result.append(token)
+            elif mode=="or" and flag>0: #有找到
+                 result.append(token)
+    return result
 
 a = "1"
-search("la",mode="or",List=dir(a))
-search("bal","k",mode="or",List=["air","air ball","ball"])
+result = search("la","ya",mode="or",List=dir(a))
+print(result)
+
+result = search("bal","k",mode="or",List=["air","air ball","ball"])
+print(result)
+```
+
+##### 使用Jupyter Notebook顯示尋找完的資料
+```python
+from IPython.display import display, HTML
+def idisplay(result,color="#ccffff"):
+    for i in result:
+        display(HTML('<pre style="background-color: %s;">%s</pre><br>'%(color,i.replace("<","&lt;").replace(">","&gt;"))))
+result = search("la","ya",mode="or",List=dir(a))
+idisplay(result)
 ```
