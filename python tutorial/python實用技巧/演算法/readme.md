@@ -66,3 +66,70 @@ def reduce(a):
 result = reduce(["1","123","2","23","3","1","123","2","23","3"])
 print(result)
 ```
+
+### 隨機重新排序(List)
+```python
+from random import randint
+def randSort(a):
+    b = []
+    while len(a)>0:
+        c = len(a)
+        b.append(a.pop(randint(0,c-1)))
+    return b
+
+print(randSort([1,2,3]))
+```
+
+### 產生長度為l，從範圍從s到e的list(int,int,int)
+```python
+from random import randint
+def rl(s,e,l):
+    return [randint(s,e) for i in "."*l]
+
+print(rl(0,5,5))
+```
+
+### 藉由給定的物件和機率百分比精度回傳最終得到的物件
+```python
+from random import randint
+
+def Probability(p=[0.1,0.2,0.7],l=[1,2,3],preci=2):
+    p = [int(i*(10**preci)) for i in p]
+    start = 0
+    for i in range(len(p)):
+        p[i] = [start,start+p[i]]
+        start = p[i][1]
+    seed = randint(1,(10**preci))
+    index = 0
+    result = ""
+    for i in p:
+        if seed>i[0] and seed<=i[1]:
+            result = l[index]
+            break
+        index += 1
+    return result
+
+print(Probability(p=[0.05,0.05,0.90],l=["a","k","r"],preci=2))
+```
+
+### 藉由給定的物件和機率權重回傳最終得到的物件
+```python
+from random import randint
+
+def Probability(p=[1,2,7],l=[1,2,3]):
+    #1 2 3 4 5 6 7 8 9 10...
+    total = sum(p)
+    start = 0
+    for i in range(len(p)):
+        p[i] = [start,start+p[i]]
+        start = p[i][1]
+    seed = randint(1,total)
+    result = ""
+    for i in range(len(p)):
+        if seed>p[i][0] and seed<=p[i][1]:
+            result = l[i]
+            break
+    return result
+
+print(Probability([1,1,3],["t","q","y"]))
+```
