@@ -32,7 +32,7 @@ def search(*words,List=[],mode="and",limit=10**10):
             if mode=="and" and flag==len(words): #全部找到
                 result.append(token)
             elif mode=="or" and flag>0: #有找到
-                 result.append(token)
+                result.append(token)
     return result
 
 a = "1"
