@@ -26,31 +26,20 @@ print("\r",3,sep="",end="")
 ### Search
 #### 使用python在資料中尋找含有特定文字的資料
 ```python
-def UL(w): #不分大小寫
-    if len(w)>11:
-        print("Warning your key word is too big, will take long time to process, you can try to split it to small word and resent")
-    word = [""]
-    for e in w:
-        for i in range(len(word)):
-            word.append(word[i]+e.lower())
-            word.append(word[i]+e.upper())
-    return word[-(2**len(w)):]
-
 def search(*words,List=[],mode="and",limit=10**10):
-    words = [UL(i) for i in words]
     result = []
     for token in List:
+        if not len(token)<limit: continue
+        token1 = token.lower() #不分大小寫
         flag = 0
         for word in words: #從所有關鍵字尋找
-            for keyWord in word: #關鍵字不分大小寫
-                if keyWord in token: 
-                    flag+=1 #找到
-                    break
-        if len(token)<limit:
-            if mode=="and" and flag==len(words): #全部找到
-                result.append(token)
-            elif mode=="or" and flag>0: #有找到
-                result.append(token)
+            keyWord = word.lower() #關鍵字不分大小寫
+            if keyWord in token1: 
+                flag+=1
+        if mode=="and" and flag==len(words): #全部找到
+            result.append(token)
+        elif mode=="or" and flag>0: #有找到
+            result.append(token)
     return result
 
 a = "1"
