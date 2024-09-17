@@ -5,6 +5,24 @@ a = 1
 print(dir(a))
 ```
 
+### print
+sep是分隔參數使用，預設為```" "```。end是結尾使用，預設為```"\n"```換行符號。
+```python
+print(1,2,3,sep="Hello")
+print(1,2,3,sep="Hello",end="")
+print(1,2,3,sep="Hello",end="")
+```
+
+#### Flash Print
+```python
+import time
+print("\r",1,sep="",end="")
+time.sleep(1)
+print("\r",2,sep="",end="")
+time.sleep(1)
+print("\r",3,sep="",end="")
+```
+
 #### search
 ##### 使用python在資料中尋找含有特定文字的資料
 ```python
