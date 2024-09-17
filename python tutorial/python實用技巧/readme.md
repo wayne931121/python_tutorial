@@ -23,8 +23,8 @@ time.sleep(1)
 print("\r",3,sep="",end="")
 ```
 
-#### search
-##### 使用python在資料中尋找含有特定文字的資料
+### Search
+#### 使用python在資料中尋找含有特定文字的資料
 ```python
 def UL(w): #不分大小寫
     if len(w)>11:
@@ -61,7 +61,7 @@ result = search("bal","k",mode="or",List=["air","air ball","ball"])
 print(result)
 ```
 
-##### 使用Jupyter Notebook顯示尋找完的資料
+#### 使用Jupyter Notebook顯示尋找完的資料
 ```python
 from IPython.display import display, HTML
 def idisplay(result,color="#ccffff"):
