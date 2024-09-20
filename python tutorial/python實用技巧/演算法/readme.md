@@ -80,6 +80,16 @@ def randSort(a):
 print(randSort([1,2,3]))
 ```
 
+### 隨機取出(List)
+```python
+from random import randint
+
+def randGet(a):
+    return a[randint(0,len(a)-1)]
+
+print(randGet(["y","p","6"]))
+```
+
 ### 產生長度為l，從範圍從s到e的list(int,int,int)
 ```python
 from random import randint
