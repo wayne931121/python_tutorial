@@ -83,7 +83,6 @@ print(randSort([1,2,3]))
 ### 隨機取出(List)
 ```python
 from random import randint
-
 def randGet(a):
     return a[randint(0,len(a)-1)]
 
@@ -125,7 +124,6 @@ print(Probability(p=[0.05,0.05,0.90],l=["a","k","r"],preci=2))
 #### By Dictionary (Dictionary-> ?:0<=float<=1, int)
 ```python
 from random import randint
-
 def Probability(dic={"item1":0.7,"item2":0.1,"item3":0.2},preci=2):
     p = dic.values()
     l = dic.keys()
@@ -170,7 +168,6 @@ print(Probability([1,1,3],["t","q","y"]))
 #### By Dictionary (Dictionary->?:int)
 ```python
 from random import randint
-
 def Probability(dic={"item1":1,"item2":2,"item3":7}):
     p = list(dic.values())
     l = list(dic.keys())
