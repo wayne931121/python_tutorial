@@ -89,7 +89,8 @@ def rl(s,e,l):
 print(rl(0,5,5))
 ```
 
-### 藉由給定的物件和機率百分比精度回傳最終得到的物件(List:0<=float<=1,List,int)
+### 藉由給定的物件和機率百分比精度回傳最終得到的物件
+#### By List,List (List:0<=float<=1,List,int)
 ```python
 from random import randint
 
@@ -111,8 +112,31 @@ def Probability(p=[0.1,0.2,0.7],l=[1,2,3],preci=2):
 
 print(Probability(p=[0.05,0.05,0.90],l=["a","k","r"],preci=2))
 ```
+#### By Dictionary (Dictionary-> ?:0<=float<=1, int)
+```python
+from random import randint
 
-### 藉由給定的物件和機率權重回傳最終得到的物件(List:int,List)
+def Probability(dic={"item1":0.7,"item2":0.1,"item3":0.2},preci=2):
+    p = dic.values()
+    l = dic.keys()
+    p = [int(i*(10**preci)) for i in p]
+    start = 0
+    for i in range(len(p)):
+        p[i] = [start,start+p[i]]
+        start = p[i][1]
+    seed = randint(1,(10**preci))
+    result = ""
+    for i,b in zip(p,l):
+        if seed>i[0] and seed<=i[1]:
+            result = b
+            break
+    return result
+
+print(Probability({"item1":0.7,"item2":0.1,"item3":0.2},preci=2))
+```
+
+### 藉由給定的物件和機率權重回傳最終得到的物件
+#### By List and List (List:int,List)
 ```python
 from random import randint
 
@@ -132,6 +156,28 @@ def Probability(p=[1,2,7],l=[1,2,3]):
     return result
 
 print(Probability([1,1,3],["t","q","y"]))
+```
+#### By Dictionary (Dictionary->?:int)
+```python
+from random import randint
+
+def Probability(dic={"item1":1,"item2":2,"item3":7}):
+    p = list(dic.values())
+    l = list(dic.keys())
+    total = sum(p)
+    start = 0
+    for i in range(len(p)):
+        p[i] = [start,start+p[i]]
+        start = p[i][1]
+    seed = randint(1,total)
+    result = ""
+    for i in range(len(p)):
+        if seed>p[i][0] and seed<=p[i][1]:
+            result = l[i]
+            break
+    return result
+
+print(Probability({"t":1,"q":1,"y":3}))
 ```
 
 ### 隨機數 (精確度取決於系統)
