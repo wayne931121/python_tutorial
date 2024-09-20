@@ -121,7 +121,7 @@ def Probability(p=[0.1,0.2,0.7],l=[1,2,3],preci=2):
 
 print(Probability(p=[0.05,0.05,0.90],l=["a","k","r"],preci=2))
 ```
-#### Dictionary (Dictionary-> ?:0<=float<=1, int)
+#### Dictionary (Dictionary-> ?:0<=float<=1,int)
 ```python
 from random import randint
 def Probability(dic={"item1":0.7,"item2":0.1,"item3":0.2},preci=2):
