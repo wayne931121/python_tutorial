@@ -84,6 +84,7 @@ print(randSort([1,2,3]))
 ```python
 from random import randint
 def randGet(a):
+    if len(a)==0: return None
     return a[randint(0,len(a)-1)]
 
 print(randGet(["y","p","6"]))
