@@ -60,3 +60,26 @@ def idisplay(result,color="#ccffff"):
 result = search("la","ya",mode="or",List=dir(a))
 idisplay(result)
 ```
+#### 搜尋尋找對應的值藉由給定邏輯、目標和陣列
+```python
+def findtl(target,lis,f=lambda x:x,activate=lambda a,b:a==b):
+    res = []
+    for n,i in enumerate(lis):
+        e = f(i)
+        if activate(target,e):
+            return n,i
+def searchtl(target,lis,f=lambda x:x,activate=lambda a,b:a==b):
+    res = []
+    for n,i in enumerate(lis):
+        e = f(i)
+        if activate(target,e):
+            res.append([n,i])
+    return res
+
+print(findtl(1,[2,3,1,5,1,5]))
+print(searchtl(1,[2,3,1,5,1,5]))
+print()
+a,b = 'w',[[['w'], '12'], [['n','o'], '青菜'], [['w'], '3']]
+print(findtl(a,b,compare=lambda x:x[0], activate=lambda a,b:a in b))
+print(searchtl(a,b,compare=lambda x:x[0], activate=lambda a,b:a in b))
+```
