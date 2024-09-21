@@ -62,16 +62,16 @@ idisplay(result)
 ```
 #### 搜尋尋找對應的值藉由給定邏輯、目標和陣列
 ```python
-def findtl(target,lis,f=lambda x:x,activate=lambda a,b:a==b):
+def findtl(target,lis,compare=lambda x:x,activate=lambda a,b:a==b):
     res = []
     for n,i in enumerate(lis):
-        e = f(i)
+        e = compare(i)
         if activate(target,e):
             return n,i
-def searchtl(target,lis,f=lambda x:x,activate=lambda a,b:a==b):
+def searchtl(target,lis,compare=lambda x:x,activate=lambda a,b:a==b):
     res = []
     for n,i in enumerate(lis):
-        e = f(i)
+        e = compare(i)
         if activate(target,e):
             res.append([n,i])
     return res
