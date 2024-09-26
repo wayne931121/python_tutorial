@@ -200,3 +200,32 @@ def random(start,end,dpv=1): #end>start, dpv!=0
 
 print(random(0,10))
 ```
+
+### 兩點座標間的距離
+```python
+def distance(point1,point2):
+    return sum(map(lambda p:(p[1]-p[0])**2, zip(point1,point2)))**0.5
+
+#         x y z a b c ...
+point1 = [0,0,0,0,0,0]
+point2 = [3,4,0,0,0,0]
+print(distance(point1,point2))
+```
+
+### 座標降維處理
+```python
+def break_point_last_dimension(point, way=lambda a:1/a):
+    point_copied = point[:-1]
+    weight = way(abs(point[-1])+1)
+    return list(map(lambda a:a*weight, point_copied))
+
+def change_point_into_2D_dimension(point, way=lambda a:1/a): #turn position into 2d eyes position so 2d eyes can see
+    while len(point)>2:
+        point = break_point_last_dimension(point, way)
+    return point
+
+#         x y z a b c ...
+point3 = [3,4,0,0,9,0]
+
+print(change_point_into_2D_dimension(point3))
+```
