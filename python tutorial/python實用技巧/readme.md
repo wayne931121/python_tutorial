@@ -96,6 +96,7 @@ print(listget([[1,2],[2,5]],lambda x:x[1]))
 # Be careful to use this function, if you don't understand this, don't use this, only use import keyword.
 def make_attrs_global(obj, global_, skip=0, cover=0, message=""):
     #https://stackoverflow.com/questions/30098037/call-function-from-class-without-declaring-name-object?rq=3
+    #https://stackoverflow.com/a/30098651/19470749
     for attr in dir(obj):
         if not attr.startswith('__'):
             if attr in global_:
@@ -128,7 +129,7 @@ goodbye()
 what()
 print()
 
-make_attrs_global(Say, globals(),skip=1,message="main.py -> ")
+make_attrs_global(Say, globals(), skip=1, message="main.py -> ")
 
 print()
 hello()
@@ -136,7 +137,7 @@ goodbye()
 what()
 print()
 
-make_attrs_global(Say, globals(),cover=1)
+make_attrs_global(Say, globals(), cover=1)
 
 print()
 hello()
