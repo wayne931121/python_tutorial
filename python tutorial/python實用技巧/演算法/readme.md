@@ -230,7 +230,7 @@ point3 = [3,4,0,0,9,0]
 print(change_point_into_2D_dimension(point3))
 ```
 
-### 移除空白數據(移除```None, "",False,0```)
+### 移除空白數據(移除```None, "", False, 0```)
 ```python
 def removeempty(a):
     return [i for i in a if i]
