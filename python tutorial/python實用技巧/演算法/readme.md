@@ -257,6 +257,8 @@ print(delta_(lambda a:a**2, 6, 9))
 
 ### 瞬間變化率 instantaneous rate of change aka Derivative (在一個函數下n0是無限接近n或n並且n1是無限接近n或n且n0不等於n1，取n0到n1的變化率)
 ```python
+import decimal
+
 def delta(f,n,mode=None,preci=10**7):
     decimal.getcontext().prec = preci
     preci = decimal.Decimal(1)/decimal.Decimal(preci)
