@@ -69,17 +69,17 @@ class Utils:
                 if j-i==maxLength: break
         return result
     @staticmethod
-    def make_attrs_global(obj,global_=None,skip=0,message=""): #https://stackoverflow.com/questions/30098037/call-function-from-class-without-declaring-name-object?rq=3
-        if global_==None:
-            global_ = Utils_Glogals
-        # print("KNN" in global_)
+    # Be careful to use this function, if you don't understand this, don't use this, only use import keyword.
+    def make_attrs_global(obj, global_, skip=0, cover=0, message=""):
+        #https://stackoverflow.com/questions/30098037/call-function-from-class-without-declaring-name-object?rq=3
         for attr in dir(obj):
             if not attr.startswith('__'):
                 if attr in global_:
-                    if skip:
-                        print(message, "Warning : SKIP", attr )
-                    else:
-                        raise Exception("This MUST NOT DO THIS Operate, SET (CHILD NAME) to GLOBALS USING SAME NAME AS PARENT NAME" + " " + attr)
+                    if not cover:
+                        if skip:
+                            print(message, "Warning : SKIP", attr )
+                        else:
+                            raise Exception("This MUST NOT DO THIS Operate, SET (CHILD NAME) to GLOBALS USING SAME NAME AS PARENT NAME" + " " + attr)
                 else:
                     global_[attr] = getattr(obj, attr)
     @staticmethod
@@ -153,14 +153,24 @@ class Utils:
             f.write(data)
         return None
     @staticmethod
-    def distance(a,b):
-        return ( (b[0]-a[0])**2 + (b[1]-a[1])**2 )**(1/2)
+    def distance(point1,point2):
+        return sum(map(lambda p:(p[1]-p[0])**2, zip(point1,point2)))**0.5
     @staticmethod
     def htmlpreproccess(string,*args):
         if "<" in args: string = string.replace("<","&lt;")
         if ">" in args: string = string.replace(">","&gt;")
         if "\n" in args: string = string.replace("\n","<br>")
         return string
+    @staticmethod
+    def break_point_last_dimension(point, way=lambda a:1/a):
+        point_copied = point[:-1]
+        weight = way(abs(point[-1])+1)
+        return list(map(lambda a:a*weight, point_copied))
+    @staticmethod
+    def change_point_into_2D_dimension(point, way=lambda a:1/a): #turn position into 2d eyes position so 2d eyes can see
+        while len(point)>2:
+            point = break_point_last_dimension(point, way)
+        return point
 
 Utils.make_attrs_global(Utils)
 
