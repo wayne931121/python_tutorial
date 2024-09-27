@@ -83,7 +83,7 @@ a,b = 'w',[[['w'], '12'], [['n','o'], '青菜'], [['w'], '3']]
 print(findtl(a,b,compare=lambda x:x[0], activate=lambda a,b:a in b))
 print(searchtl(a,b,compare=lambda x:x[0], activate=lambda a,b:a in b))
 ```
-#### 回傳值陣列藉由給定陣列和陣列項目操作(類似map，但參數順序不同並且直接回傳list)
+### 回傳值陣列藉由給定陣列和陣列項目操作(類似map，但參數順序不同並且直接回傳list)
 ```python
 def listget(a,f=lambda x:x):
     return [f(i) for i in a]
@@ -91,7 +91,7 @@ def listget(a,f=lambda x:x):
 print(listget([[1,2],[2,5]],lambda x:x[1]))
 ```
 
-#### 將Class內的所有子項目設定到全域變數內
+### 將Class內的所有子項目設定到全域變數內
 ```python
 # Be careful to use this function, if you don't understand this, don't use this, only use import keyword.
 def make_attrs_global(obj, global_, skip=0, cover=0, message=""):
