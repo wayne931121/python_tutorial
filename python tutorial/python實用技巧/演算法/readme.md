@@ -238,3 +238,59 @@ def removeempty(a):
 print(removeempty([5 , 4, False, None, "", 0, 1, 2]))
 print(removeempty([5 , 6, None, None, 10, 12, 72]))
 ```
+
+### 變化量 Delta (在一個函數下從a到b的對應值變化量)
+```python
+def delta__(f, a, b):
+    return f(b)-f(a)
+
+print(delta__(lambda a:a**2, 6, 9))
+```
+
+### 變化率 rate of change (在一個函數下從a到b的對應值變化量除以a到b的變化量)
+```python
+def delta_(f,a,b):
+    return delta__(f,a,b)/abs(delta__(lambda a:a, a, b))
+
+print(delta_(lambda a:a**2, 6, 9))
+```
+
+### 瞬間變化率 instantaneous rate of change aka Derivative (在一個函數下n0是無限接近a或a並且n1是無限接近a或a且n0不等於n1，取n0到n1的變化率)
+```python
+def delta(f,n,mode=None,preci=10**7):
+    decimal.getcontext().prec = preci
+    preci = decimal.Decimal(1)/decimal.Decimal(preci)
+    n = decimal.Decimal(n)
+    result = 0
+    if mode=="small to original":
+        
+        result = delta_(f,n-preci,n)
+        
+    elif mode=="original to big":
+        
+        result = delta_(f,n,n+preci)
+        
+    elif mode=="small to big":
+        
+        result  = delta_(f,n-preci,n+preci)
+        
+    elif mode=="original to small":
+        
+        result = delta_(f,n,n-preci)
+        
+    elif mode=="big to original":
+        
+        result = delta_(f,n+preci,n)
+        
+    elif mode=="big to small":
+        
+        result = delta_(f,n+preci,n-preci)
+        
+    else:
+        # small to original
+        result = delta_(f,n-preci,n)
+        
+    return float(result)
+
+print(delta(lambda a:a**2, 6))
+```
