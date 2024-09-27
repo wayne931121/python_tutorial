@@ -172,7 +172,7 @@ class Utils:
             point = break_point_last_dimension(point, way)
         return point
 
-Utils.make_attrs_global(Utils)
+Utils.make_attrs_global( Utils, globals() )
 
 if __name__=="__main__":
     print(distance([10,3],[4,6]))
