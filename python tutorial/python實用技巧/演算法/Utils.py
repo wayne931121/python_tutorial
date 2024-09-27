@@ -49,15 +49,15 @@ class Utils:
         result = []
         for token in List:
             if not len(token)<limit: continue
-            token1 = token.lower() #¤£¤À¤j¤p¼g
+            token1 = token.lower() #ä¸åˆ†å¤§å°å¯«
             flag = 0
-            for word in words: #±q©Ò¦³ÃöÁä¦r´M§ä
-                keyWord = word.lower() #ÃöÁä¦r¤£¤À¤j¤p¼g
+            for word in words: #å¾žæ‰€æœ‰é—œéµå­—å°‹æ‰¾
+                keyWord = word.lower() #é—œéµå­—ä¸åˆ†å¤§å°å¯«
                 if keyWord in token1: 
                     flag+=1
-            if mode=="and" and flag==len(words): #¥þ³¡§ä¨ì
+            if mode=="and" and flag==len(words): #å…¨éƒ¨æ‰¾åˆ°
                 result.append(token)
-            elif mode=="or" and flag>0: #¦³§ä¨ì
+            elif mode=="or" and flag>0: #æœ‰æ‰¾åˆ°
                 result.append(token)
         return result
     @staticmethod
